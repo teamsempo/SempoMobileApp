@@ -83,3 +83,5 @@ Other known issues:
 2. Low data usage
 3. Works offline
 4. *Must* Compatible with Android 4.1 `16 (Jelly Bean)`
+  
+  
