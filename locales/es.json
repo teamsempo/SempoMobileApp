@@ -1,0 +1,380 @@
+{
+  "Defaults": {
+    "CurrencySymbol": "",
+    "Currency": "USD",
+    "Amount": "{{amount}} USD"
+  },
+  "ExternalLinks": {
+    "Help": "https://docs.withsempo.com/v/spanish/vendor-guide/"
+  },
+  "App": {
+    "Error": "Se produjo un error inesperado",
+    "RestartMsg": "Necesitaremos reiniciar la aplicación.",
+    "Restart": "Reiniciar"
+  },
+  "Common": {
+    "OK": "BUENO",
+    "Start": "COMIENZO",
+    "Next": "SIGUIENTE",
+    "ContactSupport": "Contáctenos",
+    "Soon": "{{feature}} próximamente ..."
+  },
+  "OfflineNotice": {
+    "Message": "Sin conexión a Internet"
+  },
+  "LocaleAlert": {
+    "Title": "Reiniciando la aplicación",
+    "Details": "Estamos reiniciando su aplicación para optimizarla para la configuración regional que eligió.",
+    "LanguageTitle": "Cambiar idioma",
+    "Button": "Bueno"
+  },
+  "DateTime": {
+    "NotLong": "No hace mucho"
+  },
+  "Drawer": {
+    "Payments": "Pagos",
+    "Reporting": "Reportando",
+    "Settings": "Configuraciones",
+    "MakePayment": "Hacer el pago"
+  },
+  "NavBar": {
+    "chargeButtonText": "cobrar",
+    "refundButtonText": "Reembolso"
+  },
+  "GoBackNav": {
+    "DefaultTitleText": "Regresa",
+    "TransferTitleText": "Transferir"
+  },
+  "LoginScreen": {
+    "title": "Tu perfil",
+    "Legal": "Legal"
+  },
+  "AuthInput": {
+    "LoginButton": "INICIAR SESIÓN",
+    "ContactUs": "Contáctenos",
+    "PhonePlaceholder": "Su número de teléfono",
+    "PinPlaceholder": "Su PIN",
+    "PhoneMissing": "Ingrese su número telefónico",
+    "OTPCode": "Ingrese un código único",
+    "PinMissing": "Ingrese un pin",
+    "LoginStatusError": "Número de teléfono o PIN no válido",
+    "PinTooShortError": "El PIN debe tener al menos 4 dígitos"
+  },
+  "OTP": {
+    "Prompt": "Ingrese un código único",
+    "MissingError": "Ingrese el código de un solo uso proporcionado a través del Enroller o SMS",
+    "TooShortError": "El código debe tener al menos 4 dígitos"
+
+  },
+  "SetPin": {
+    "ChoosePinPrompt": "Elija un PIN",
+    "ReenterPinPrompt": "Vuelva a ingresar su PIN",
+    "NotMatchingError": "Tu PIN no coincide",
+    "ClearPin": "Cancelar"
+  },
+  "EnterPinLogin": {
+    "EnterPinPrompt": "Por favor ingrese su PIN",
+    "IncorrectPin": "PIN incorrecto"
+  },
+  "AuthButton": {
+    "LoginText": "Iniciar sesión",
+    "LogOutText": "Cerrar sesión",
+    "AuthPrompt": "¿Estás segura de que quieres cerrar sesión?"
+  },
+  "PaymentsUseScreen": {
+    "PaymentUse": "¿Para qué es este pago?",
+    "PaymentUsePrompt": "Debe seleccionar al menos un uso de pago",
+    "UseFoodWater": "Comida o agua",
+    "UseClothing": "Ropa",
+    "UseShelter": "Abrigo",
+    "UseOther": "Otra"
+  },
+  "PaymentsOptionScreen": {
+    "PaymentOption": "Elija una opción de pago a continuación",
+    "QR": "Escanear código QR",
+    "NFC": "Tarjeta Táctil",
+    "Manual": "Entrada manual"
+  },
+  "NFCScreen": {
+    "ErrorMessage": "Toque la tarjeta",
+    "NFCError": "Error de tarjeta",
+    "NFCErrorMessage": "Su dispositivo no tiene una lectora NFC.",
+    "NFCCardError": "Error de autenticación de la tarjeta",
+    "NFCCurrencyError": "La tarjeta no tiene moneda {{currency}}",
+    "NFCBalanceError": "Equilibrio insuficiente",
+    "NFCTryAgain": "Inténtalo de nuevo",
+    "NFCTransceiveFail": "Tocó la tarjeta demasiado rápido.\nPor favor, inténtelo de nuevo.",
+    "NFCTagError": "Error de conexión con la tarjeta",
+    "NewCardError": "Encontré una nueva tarjeta.\nPor favor, inténtelo de nuevo."
+  },
+  "CardScanScreen": {
+    "QRCode": "Código QR:",
+    "QRScanned": "QR escaneado",
+    "QRScanError": "Error de escaneo de código QR",
+    "QRMissing": "Falta el código QR",
+    "NFCScanned": "NFC escaneado",
+    "NFCMissing": "Falta ID NFC",
+    "NFCID": "ID NFC:",
+    "LoggedOut": "Desconectado",
+    "NotLoggedIn": "¡Sin iniciar sesión!",
+    "LoggingIn": "Iniciando sesión",
+    "LoggedIn": "¡Conectado!",
+    "LoginError": "Error de inicio de sesión",
+    "Loading": "Cargando...",
+    "Error": "Error",
+    "Deployment": "Despliegue:",
+    "KoboUsername": "Nombre de usuario de Kobo:",
+    "KoboPassword": "Contraseña de Kobo:"
+  },
+  "TransferCompleteScreen": {
+    "SuccessMessage": "Transferencia exitosa",
+    "RefundSuccessMessage": "Reembolso exitosa",
+    "Continue": "Seguir"
+  },
+  "ManualPayment": {
+    "InvalidCode": "Entrada invalida",
+    "InsufficientFunds": "La cliente no tiene fondos suficientes",
+    "Next": "Próxima"
+  },
+  "EnterPin": {
+    "MissingPin": "Pin que falta. Introduzca un PIN de 4 dígitos.",
+    "Confirming": "Confirmación de transacción",
+    "EnterPinText": "Pídale a {{name}} que ingrese su PIN privado para confirmar la transacción"
+  },
+  "CameraScreen": {
+    "InvalidQr": "Código QR no válido",
+    "InsufficientFunds": "La cliente no tiene fondos suficientes",
+    "permissionDialog": "Permiso para usar la cámara",
+    "RefundPrompt": "Escanear código para reembolsar",
+    "PayPrompt": "Escanee el código para aceptar el pago"
+  },
+  "ReportingScreen": {
+    "Withdrawal": "Retirada",
+    "Disbursement": "Depositar",
+    "Pending": "Pendiente",
+    "Complete": "Completo",
+    "Rejected": "Rechazado",
+    "Send": "Enviar",
+    "Receive": "Recibido",
+    "Payment": "Pago",
+    "Refund": "Reembolso",
+    "Title": "Reportando",
+    "WithdrawalButton": "Solicitud de retirada",
+    "NoData": "Datos no disponibles",
+    "CachePending": "pendiente",
+    "Hint": "Navegar a"
+  },
+  "TransferReportingScreen": {
+    "TransferTitle": "DETALLES DE LA TRANSFERENCIA",
+    "TimestampLabel": "Hora:",
+    "StatusLabel": "Estado de transferencia:",
+    "ModeLabel": "Modo de transferencia:"
+  },
+  "WithdrawalAmountScreen": {
+    "Requesting": "Solicitud de retiro",
+    "Title": "Ingrese el monto del retiro",
+    "Balance": "Saldo: {{amount}} (disponible)"
+  },
+  "WithdrawalCompleteScreen": {
+    "Title": "Retiro solicitado",
+    "PageText": "Los retiros demoran de 1 a 7 días hábiles y se pagarán a través del método de pago elegido en la configuración",
+    "ContinueButton": "Seguir"
+  },
+  "ExportScreen": {
+    "Title": "Exportar datos",
+    "EmailPlaceholder": "Ingrese un correo electrónico",
+    "OpenFile": "Haga clic aquí para abrir el archivo."
+  },
+  "SettingsScreen": {
+    "Title": "Configuraciones",
+    "ContactUs": "¿Necesitas ayuda? Contáctenos",
+    "DetailsTitle": "TUS DETALLES",
+    "NameText": "{{name}}",
+    "BalanceText": "Equilibrar:",
+    "PhoneText": "Teléfono: {{phone}}",
+    "LocationText": "Ubicación: {{location}}",
+    "OptionsTitle": "OPCIONES",
+    "SupportTitle": "APOYO",
+    "MessageUs": "Envíanos un mensaje",
+    "FAQS": "Preguntas frecuentes",
+    "OtherTitle": "OTRA",
+    "ExtraInfo": "SU SALDO {{balance}} retiro pendiente",
+    "ExtraInfoDefault": "TU BALANCE",
+    "LanguageText": "Idioma:",
+    "Feedback": "Danos tu opinión y refiérete",
+    "HowItWorks": "Cómo funciona",
+    "Version": "Versión {{version}}",
+    "SecurityTitle": "SEGURIDAD",
+    "SecurityText": "Requerir PIN para acceder a la aplicación",
+    "CheckBalance": "Consultar saldo"
+  },
+  "HomeScreen": {
+    "Balance": "TU BALANCE",
+    "Pay": "PAGAR",
+    "Wallet": "Billetera",
+    "NoTransfers": "Aún no has realizado ninguna transferencia",
+    "PromptText": "Muestre al proveedor su código QR para pagar al instante",
+    "LoadTransfers": "Toca para cargar transferencias",
+    "SettingsHint": "Navegar a la configuración",
+    "PayHint": "Navegar a las pantallas de pago"
+  },
+  "PaymentModeSwitcher": {
+    "SendHint": "Navegar a la pantalla de envío",
+    "ChargeHint": "Navegar a la pantalla de recepción",
+    "ScanHint": "Navegar a la pantalla de escaneo de la cámara"
+  },
+  "SendPaymentCameraScreen": {
+    "Send": "Enviar",
+    "CameraPrompt": "Escanear un código QR",
+    "Amount": "{{amount}} USD",
+    "NoWallet": "Sin billetera para moneda ",
+    "NewBalance": "Tu nuevo saldo sería ",
+    "Payment": "Pago",
+    "Success": "¡Éxito!",
+    "Processing": "Procesando...",
+    "To": "a {{proveedor}}",
+    "Next": "Próxima",
+    "Done": "Hecho",
+    "Ok": "Bueno",
+    "TextInputPlaceholder": "Cuéntanos más, por favor (opcional)",
+    "Submit": "Enviar",
+    "FeedbackTitle": "¿Cómo fue tu experiencia?",
+    "Good": "Buena",
+    "HadIssues": "Tuvo problemas",
+    "Skip": "Omitir",
+    "FeedbackSent": "¡Comentarios enviados!",
+    "Sending": "Enviando...",
+    "OfflinePayment": "¿Probar el pago sin conexión?",
+    "Cancel": "Cancelar",
+    "Copy": "Copiar",
+    "Link": "Ir al enlace",
+    "QR": "Datos QR",
+    "CheckBalance": "Saldo del identificador {{identifier}}",
+    "CardBalance": "Saldo actual de la tarjeta",
+    "Available": "Disponible",
+    "InsufficientFunds": "No tienes fondos suficientes",
+    "Close": "Cerrar",
+    "ClipboardSend": "¿Quieres enviar a la siguiente dirección?"
+  },
+  "ReceiptUpload": {
+    "UploadReceiptButton": "Enviar foto de recibo",
+    "Success": "Éxito. ¡Gracias!",
+    "Loading": "Cargando..."
+  },
+  "SurveyFeedback": {
+    "assistance_satisfaction": "¿Está satisfecho con recibir asistencia de esta manera?",
+    "assistance_delivery_preference": "¿Cuál es su forma de ayuda preferida?",
+    "nps": "¿Qué posibilidades hay de que refieras a Sempo a una amiga?",
+    "sempo_referral": "Nominar a alguien",
+    "cash": "Solamente efectivo",
+    "goods": "solo bienes",
+    "services": "solo servicios",
+    "mix": "una mezcla"
+  },
+  "Referral": {
+    "referral": "Remisión",
+    "title": "Refiera a otros",
+    "description": "Refiera Sempo a alguien en su comunidad que lo necesite. Si es un destinatario apropiado, se le invitará a unirse al programa.",
+    "first_name": "Su primer nombre",
+    "last_name": "Su apellido",
+    "phone_number": "Su número de teléfono",
+    "reason": "Razón para referir",
+    "Submit": "Enviar",
+    "referral_success": "¡Éxito de la recomendación!",
+    "error_message": "Falta uno o más campos"
+  },
+  "VersionModal": {
+    "button": "Actualizar",
+    "now_title": "Actualizar ahora",
+    "now_message": "Actualice su aplicación. Esta versión ya no es compatible.",
+    "soon_title": "Actualizar pronto",
+    "soon_message": "Actualice su aplicación. Esta versión no estará disponible pronto."
+  },
+  "OnboardingScreens": {
+    "DigitalWalletTitle": "Tu billetera digital",
+    "DigitalWalletDesc": "Es tu dinero. Te ayudamos a administrar tu bienestar financiero en tu billetera digital personal.",
+    "PaymentsTitle": "Instantánea, fácil, segura",
+    "PaymentsDesc": "Envía dinero instantáneamente a cualquier número de teléfono. Pague fácilmente en la tienda. Asegurado por la tecnología Blockchain.",
+    "VerificationTitle": "Verificación rápida",
+    "VerificationDesc": "Obtenga la verificación para obtener mayores límites de gasto. Simplemente certifique los documentos de identidad y las redes sociales.",
+    "ReferralTitle": "Para tu comunidad",
+    "ReferralDesc": "Refiera a su comunidad a Sempo y comparta los beneficios. Conviértete en embajador de la comunidad.",
+    "StartNow": "Empezar ahora"
+  },
+  "SendPayment": {
+    "SendButton": "Enviar a la usuaria",
+    "Prompt": "Sempo ID, número de teléfono, dirección de Blockchain, etc."
+  },
+  "ShareWallet": {
+    "Label": "Cuota",
+    "Hint": "Comparte la dirección de tu billetera"
+  },
+  "LockScreen": {
+    "Prompt": "Introduzca su código de acceso",
+    "ErrorPrompt": "Código de acceso incorrecto",
+    "SetPasscode": "Establecer una contraseña",
+    "RenterPasscode": "Vuelva a ingresar su contraseña"
+  },
+  "VerifyAccountWrapper": {
+    "VerifyTitle": "¡Verifica tu cuenta!",
+    "VerifyDesc": "¡Proporcione información de forma segura para verificar su identidad con solo unos toques!",
+    "VerifyTitleIncomplete": "Se necesita más información",
+    "VerifyDescIncomplete": "Necesitamos más información suya para verificar su identidad",
+    "PayTitle": "¡Agregue un pago!",
+    "PayDesc": "¡Elija entre transferencia bancaria y PayPal para retirar sus fondos!"
+  },
+  "VerifyFailureOptions": {
+    "id_non_valid": "El documento de identidad no es válido o está caducado",
+    "id_partial": "El documento de identidad es parcial. Se cubre información importante.",
+    "id_damaged": "El documento de identidad está dañado. La identificación es ilegible debido a daños físicos.",
+    "id_non_english": "El documento de identidad no está en inglés.",
+    "id_blurry": "El documento de identidad o la selfie están demasiado borrosos",
+    "selfie_no_match": "La foto de identificación no coincide con la selfie",
+    "selfie_id_non_present": "El documento de identidad no está presente en la imagen de la selfie",
+    "selfie_covered": "Parte de la cara en la imagen de la selfie está cubierta por una mano, identificación, cualquier otra cosa"
+  },
+  "VerifyLaunchScreen": {
+    "LegalTerms": "Al continuar, acepta nuestras ",
+    "Terms": "Términos y Condiciones",
+    "LearnMore": "Aprende más",
+    "PromptBanner": "Nos tomamos muy en serio su privacidad y seguridad. Obtenga más información sobre por qué hacemos las verificaciones de 'Conozca a su cliente'",
+    "ErrorBanner": "Hubo un problema al verificar su cuenta. Inténtalo de nuevo.",
+    "Title": "Verifica tu identidad",
+    "Subtitle": "Tardará menos de 2 minutos",
+    "HowHeading": "Que deberás hacer",
+    "StepOne": "Hacer una foto de un documento de identidad",
+    "StepTwo": "Toma una selfie",
+    "BusinessQuestion": "¿Te registras como empresa?"
+  },
+  "CountrySelectionScreen": {
+    "Title": "Seleccionar país emisor",
+    "Subtitle": "Elija el país de donde proviene su documento",
+    "Prompt": "Elige un pais"
+  },
+  "DocumentTypeScreen": {
+    "Title": "Seleccionar un documento",
+    "Subtitle": "Le tomará una foto en el siguiente paso."
+  },
+  "DocumentCameraScreen": {
+    "Title": "Escanear {{type}} {{side}}",
+    "Prompt": "Encaja el {{side}} de tu {{type}} en el marco",
+    "Retake": "RECUPERAR FOTO",
+    "Readable": "MI {{type}} SE PUEDE LEER"
+  },
+  "SelfieCameraScreen": {
+    "Title": "Toma una selfie",
+    "MakeSure": "Por favor asegúrese",
+    "FaceCovered": "Tu cara no esta cubierta",
+    "DocumentReadable": "Tu documento es legible",
+    "Prompt": "Asegúrate de que tu rostro y tu documento estén visibles",
+    "Clear": "MI SELFIE Y DOCUMENTO ES CLARO"
+  },
+  "OutcomeScreen": {
+    "Title": "Verificación de cuenta {{outcome}}",
+    "Subtitle": "Esto puede tomar tan solo 10 minutos, pero hasta 48 horas en algunos casos. Se le notificará más a través de SMS y en la aplicación.",
+    "Business": "Para cuentas comerciales, necesitamos información adicional, descargue y complete el siguiente formulario.",
+    "Form": "Descargar formulario",
+    "Pending": "Pendiente",
+    "Error": "Error"
+  }
+}

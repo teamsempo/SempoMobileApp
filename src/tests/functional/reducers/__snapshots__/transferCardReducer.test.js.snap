@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_CARDS_FAILURE 1`] = `
+Object {
+  "error": "unknown error",
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_CARDS_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_CARDS_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with RESET_TRANSFER_CARDS_DATA 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`singleLoadStatus Returns correct state when singleLoadStatus is provided with LOAD_SINGLE_TRANSFER_CARD_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`singleLoadStatus Returns correct state when singleLoadStatus is provided with LOAD_SINGLE_TRANSFER_CARD_REQUEST 2`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`singleLoadStatus Returns correct state when singleLoadStatus is provided with LOAD_SINGLE_TRANSFER_CARD_REQUEST 3`] = `
+Object {
+  "error": "unknown error",
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`singleLoadStatus Returns correct state when singleLoadStatus is provided with RESET_TRANSFER_CARDS_DATA 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": false,
+}
+`;

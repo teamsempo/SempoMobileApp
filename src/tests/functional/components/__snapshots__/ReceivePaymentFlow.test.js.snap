@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnterPin Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <EnterPin
+    createTransferRequest={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+  />
+</ContextProvider>
+`;
+
+exports[`PaymentsAmountScreen Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <PaymentsAmountScreen
+    removeNFCCardError={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+    updateTransferData={[Function]}
+  />
+</ContextProvider>
+`;
+
+exports[`PaymentsUseScreen Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <PaymentsUseScreen
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    updateTransferData={[Function]}
+  />
+</ContextProvider>
+`;
+
+exports[`ReceivePaymentCameraScreen Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ReceivePaymentCameraScreen
+    createTransferRequest={[Function]}
+    resetNewTransfer={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+  />
+</ContextProvider>
+`;
+
+exports[`ReceivePaymentCameraScreen Rendering should match to snapshot 2`] = `
+<ContextProvider
+  value={null}
+>
+  <RequestPaymentQrCode
+    newTransferSuccess={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+  />
+</ContextProvider>
+`;
+
+exports[`RefundScreen Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <RefundScreen
+    resetNewTransfer={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`TransferAmountDisplay Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <TransferAmountDisplay
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+  />
+</ContextProvider>
+`;
+
+exports[`TransferCompleteScreen Rendering should match to snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <TransferCompleteScreen
+    resetTransferData={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    transferData={Array []}
+  />
+</ContextProvider>
+`;

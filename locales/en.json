@@ -1,0 +1,379 @@
+{
+  "Defaults": {
+    "CurrencySymbol": "",
+    "Currency": "LBP",
+    "Amount": "{{amount}} LBP"
+  },
+  "ExternalLinks": {
+    "Help": "https://docs.withsempo.com/vendor-guide/"
+  },
+  "App": {
+    "Error": "Unexpected error occurred",
+    "RestartMsg": "We will need to restart the app.",
+    "Restart": "Restart"
+  },
+  "Common": {
+    "OK": "OK",
+    "Start": "START",
+    "Next": "NEXT",
+    "ContactSupport": "Contact Support",
+    "Soon": "{{feature}} coming soon..."
+  },
+  "OfflineNotice": {
+    "Message": "No Internet Connection"
+  },
+  "LocaleAlert": {
+    "Title": "Restarting app",
+    "Details": "We are restarting your app to optimize for your chosen locale.",
+    "LanguageTitle": "Change Language",
+    "Button": "Ok"
+  },
+  "DateTime": {
+    "NotLong": "Not Long Ago"
+  },
+  "Drawer": {
+    "Payments": "Payments",
+    "Reporting": "Reporting",
+    "Settings": "Settings",
+    "MakePayment": "Make Payment"
+  },
+  "NavBar": {
+    "chargeButtonText": "Charge",
+    "refundButtonText": "Refund"
+  },
+  "GoBackNav": {
+    "DefaultTitleText": "Go Back",
+    "TransferTitleText": "Transfer"
+  },
+  "LoginScreen": {
+    "title": "Your Profile",
+    "Legal": "Legal"
+  },
+  "AuthInput": {
+    "LoginButton": "LOGIN",
+    "ContactUs": "Contact Us",
+    "PhonePlaceholder": "Your phone number",
+    "PinPlaceholder": "Your Pin",
+    "PhoneMissing": "Enter your phone number",
+    "OTPCode": "Enter One Time Code",
+    "PinMissing": "Enter a pin",
+    "LoginStatusError": "Invalid phone number or pin",
+    "PinTooShortError": "PIN must be at least 4 digits long"
+  },
+  "OTP": {
+    "Prompt": "Enter One Time Code",
+    "MissingError": "Please enter One Time Code provided via Enroller or SMS",
+    "TooShortError": "Code must be at least 4 digits long"
+  },
+  "SetPin": {
+    "ChoosePinPrompt": "Please choose a PIN",
+    "ReenterPinPrompt": "Please Reenter your PIN",
+    "NotMatchingError": "Your PIN did not match",
+    "ClearPin": "Clear"
+  },
+  "EnterPinLogin": {
+    "EnterPinPrompt": "Please enter your PIN",
+    "IncorrectPin": "Incorrect PIN"
+  },
+  "AuthButton": {
+    "LoginText": "Login",
+    "LogOutText": "Log Out",
+    "AuthPrompt": "Are you sure you want to log out?"
+  },
+  "PaymentsUseScreen": {
+    "PaymentUse": "What is this payment for?",
+    "PaymentUsePrompt": "Must select at least one payment use",
+    "UseFoodWater": "Food or Water",
+    "UseClothing": "Clothing",
+    "UseShelter": "Shelter",
+    "UseOther": "Other"
+  },
+  "PaymentsOptionScreen": {
+    "PaymentOption": "Choose a payment option from below",
+    "QR": "Scan QR Code",
+    "NFC": "Tap NFC Card",
+    "Manual": "Manual Entry"
+  },
+  "NFCScreen": {
+    "ErrorMessage": "Hold Card To Back",
+    "NFCError": "NFC Error",
+    "NFCErrorMessage": "Your device does not have an NFC reader.",
+    "NFCCardError": "Card Authentication Error",
+    "NFCCurrencyError": "Card does not have currency {{currency}}",
+    "NFCBalanceError": "Insufficient Balance",
+    "NFCTryAgain": "Try Again",
+    "NFCTransceiveFail": "Touched too fast.\nPlease Try Again.",
+    "NFCTagError": "fail to connect tag",
+    "NewCardError": "New Card Found.\nPlease Try Again."
+  },
+  "CardScanScreen": {
+    "QRCode": "QR Code:",
+    "QRScanned": "QR Scanned",
+    "QRScanError": "Qr Code Scanning Error",
+    "QRMissing": "Missing QR Code",
+    "NFCScanned": "NFC Scanned",
+    "NFCMissing": "Missing NFC ID",
+    "NFCID": "NFC ID:",
+    "LoggedOut": "Logged Out",
+    "NotLoggedIn": "Not Logged In!",
+    "LoggingIn": "Logging In",
+    "LoggedIn": "Logged In!",
+    "LoginError": "Login Error",
+    "Loading": "Loading...",
+    "Error": "Error",
+    "Deployment": "Deployment:",
+    "KoboUsername": "Kobo Username:",
+    "KoboPassword": "Kobo Password:"
+  },
+  "TransferCompleteScreen": {
+    "SuccessMessage": "Transfer Successful",
+    "RefundSuccessMessage": "Refund Successful",
+    "Continue": "Continue"
+  },
+  "ManualPayment": {
+    "InvalidCode": "Invalid Entry",
+    "InsufficientFunds": "Customer has insufficient funds",
+    "Next": "Next"
+  },
+  "EnterPin": {
+    "MissingPin": "Missing Pin. Enter 4 Digit Pin.",
+    "Confirming": "Confirming Transaction",
+    "EnterPinText": "Ask {{name}} to enter their private pin to confirm transaction"
+  },
+  "CameraScreen": {
+    "InvalidQr": "Invalid QR Code",
+    "InsufficientFunds": "Customer has insufficient funds",
+    "permissionDialog": "Permission to use camera",
+    "RefundPrompt": "Scan code to refund",
+    "PayPrompt": "Scan code to accept payment"
+  },
+  "ReportingScreen": {
+    "Withdrawal": "Withdrawal",
+    "Disbursement": "Deposit",
+    "Pending": "Pending",
+    "Complete": "Complete",
+    "Rejected": "Rejected",
+    "Send": "Send",
+    "Receive": "Receive",
+    "Payment": "Payment",
+    "Refund": "Refund",
+    "Title": "Reporting",
+    "WithdrawalButton": "Request Withdrawal",
+    "NoData": "No Data Available",
+    "CachePending": "pending",
+    "Hint": "Navigate to"
+  },
+  "TransferReportingScreen": {
+    "TransferTitle": "TRANSFER DETAILS",
+    "TimestampLabel": "Time:",
+    "StatusLabel": "Transfer Status:",
+    "ModeLabel": "Transfer Mode:"
+  },
+  "WithdrawalAmountScreen": {
+    "Requesting": "Requesting Withdrawal",
+    "Title": "Enter Withdrawal Amount",
+    "Balance": "Balance: {{amount}} (available)"
+  },
+  "WithdrawalCompleteScreen": {
+    "Title": "Withdrawal Requested",
+    "PageText": "Withdrawals take 1-7 business days and will be paid via your chosen payment method in settings",
+    "ContinueButton": "Continue"
+  },
+  "ExportScreen": {
+    "Title": "Export Data",
+    "EmailPlaceholder": "Enter an email",
+    "OpenFile": "Click Here To Open File."
+  },
+  "SettingsScreen": {
+    "Title": "Settings",
+    "ContactUs": "Need Help? Contact Us",
+    "DetailsTitle": "YOUR DETAILS",
+    "NameText": "{{name}}",
+    "BalanceText": "Balance:",
+    "PhoneText": "Phone: {{phone}}",
+    "LocationText": "Location: {{location}}",
+    "OptionsTitle": "OPTIONS",
+    "SupportTitle": "SUPPORT",
+    "MessageUs": "Message Us",
+    "FAQS": "Frequently Asked Questions",
+    "OtherTitle": "OTHER",
+    "ExtraInfo": "YOUR BALANCE {{balance}} withdrawal pending",
+    "ExtraInfoDefault": "YOUR BALANCE",
+    "LanguageText": "Language:",
+    "Feedback": "Give us feedback and refer",
+    "HowItWorks": "How it works",
+    "Version": "Version {{version}}",
+    "SecurityTitle": "SECURITY",
+    "SecurityText": "Require PIN for app access",
+    "CheckBalance": "Check Balance"
+  },
+  "HomeScreen": {
+    "Balance": "YOUR BALANCE",
+    "Pay": "PAY",
+    "Wallet": "Wallet",
+    "NoTransfers": "You haven't made any transfers yet",
+    "PromptText": "Show the vendor your QR code to pay instantly",
+    "LoadTransfers": "Tap to load Transfers",
+    "SettingsHint": "Navigate to settings",
+    "PayHint": "Navigate to payment screens"
+  },
+  "PaymentModeSwitcher": {
+    "SendHint": "Navigate to send screen",
+    "ChargeHint": "Navigate to receive screen",
+    "ScanHint": "Navigate to camera scan screen"
+  },
+  "SendPaymentCameraScreen": {
+    "Send": "Send",
+    "CameraPrompt": "Scan a QR Code",
+    "Amount": "{{amount}}LBP",
+    "NoWallet": "No wallet for currency ",
+    "NewBalance": "Your new balance would be ",
+    "Payment": "Payment",
+    "Success": "Success!",
+    "Processing": "Processing...",
+    "To": "to {{vendor}}",
+    "Next": "Next",
+    "Done": "Done",
+    "Ok": "Ok",
+    "TextInputPlaceholder": "Tell us more, please (optional)",
+    "Submit": "Submit",
+    "FeedbackTitle": "How was your experience?",
+    "Good": "Good",
+    "HadIssues": "Had Issues",
+    "Skip": "Skip",
+    "FeedbackSent": "Feedback Sent!",
+    "Sending": "Sending...",
+    "OfflinePayment": "Try offline payment?",
+    "Cancel": "Cancel",
+    "Copy": "Copy",
+    "Link": "Go to Link",
+    "QR": "QR Data",
+    "CheckBalance": "Balance for {{identifier}} identifier",
+    "CardBalance": "Current Balance on Card",
+    "Available": "Available",
+    "InsufficientFunds": "You have insufficient funds",
+    "Close": "Close",
+    "ClipboardSend": "Do you want to send to the following address?"
+  },
+  "ReceiptUpload": {
+    "UploadReceiptButton": "Send Receipt Photo",
+    "Success": "Success. Thank you!",
+    "Loading": "Loading..."
+  },
+  "SurveyFeedback": {
+    "assistance_satisfaction": "Are you satisfied with receiving assistance this way?",
+    "assistance_delivery_preference": "What is your preferred form of aid?",
+    "nps": "How likely are you to refer Sempo to a friend?",
+    "sempo_referral": "Nominate someone",
+    "cash": "cash only",
+    "goods": "goods only",
+    "services": "services only",
+    "mix": "a mix"
+  },
+  "Referral": {
+    "referral": "Referral",
+    "title": "Refer Others",
+    "description": "Refer Sempo to someone in your community who is in need. If they are an appropriate recipient, they will be invited to join the program.",
+    "first_name": "Their First Name",
+    "last_name": "Their Last Name",
+    "phone_number": "Their Phone Number",
+    "reason": "Reason for referral",
+    "Submit": "Submit",
+    "referral_success": "Referral Success!",
+    "error_message": "One or more fields missing"
+  },
+  "VersionModal": {
+    "button": "Update",
+    "now_title": "Update Now",
+    "now_message": "Please update your app. This version is no longer supported.",
+    "soon_title": "Update Soon",
+    "soon_message": "Please update your app. This version will be unavailable soon."
+  },
+  "OnboardingScreens": {
+    "DigitalWalletTitle": "Your digital wallet",
+    "DigitalWalletDesc": "It’s your money. We help you manage your financial well-being in your personal digital wallet.",
+    "PaymentsTitle": "Instant, Easy, Secure",
+    "PaymentsDesc": "Instantly send money to any phone number. Easily pay in store. Secured by Blockchain technology.",
+    "VerificationTitle": "Quick verification",
+    "VerificationDesc": "Get verified for increased spending limits. Simply attest identity documents and social media.",
+    "ReferralTitle": "For your community",
+    "ReferralDesc": "Refer your community to Sempo and share the benefits. Become a community ambassador.",
+    "StartNow": "Start Now"
+  },
+  "SendPayment": {
+    "SendButton": "Send to user",
+    "Prompt": "Sempo ID, Phone number, Blockchain Address Etc"
+  },
+  "ShareWallet": {
+    "Label": "Share",
+    "Hint": "Share your wallet address"
+  },
+  "LockScreen": {
+    "Prompt": "Enter Your Passcode",
+    "ErrorPrompt": "Incorrect Passcode",
+    "SetPasscode": "Set a passcode",
+    "RenterPasscode": "Re-enter your passcode"
+  },
+  "VerifyAccountWrapper": {
+    "VerifyTitle": "Verify your account!",
+    "VerifyDesc": "Securely provide information to verify your identity in just a few taps!",
+    "VerifyTitleIncomplete": "Further information needed",
+    "VerifyDescIncomplete": "We need more information from you to verify your identity",
+    "PayTitle": "Add a pay-out!",
+    "PayDesc": "Choose between bank transfer and PayPal to withdraw your funds!"
+  },
+  "VerifyFailureOptions": {
+    "id_non_valid": "ID document is not valid or expired",
+    "id_partial": "ID document is partial. Important information is covered.",
+    "id_damaged": "ID document is damaged. ID is unreadable due to physical damage.",
+    "id_non_english": "ID document is not in English.",
+    "id_blurry": "ID document or selfie is too blurry",
+    "selfie_no_match": "ID photo does not match selfie",
+    "selfie_id_non_present": "ID document is not present in selfie image",
+    "selfie_covered": "Part of the face in the selfie image is covered by a hand, ID, anything else"
+  },
+  "VerifyLaunchScreen": {
+    "LegalTerms": "By continuing, you agree to our ",
+    "Terms": "Terms and Conditions",
+    "LearnMore": "Learn More",
+    "PromptBanner": "We take your privacy and security seriously. Learn more about why we do 'Know Your Customer' checks",
+    "ErrorBanner": "There was a problem verifying your account. Please try again.",
+    "Title": "Verify Your Identity",
+    "Subtitle": "It will take less than 2 minutes",
+    "HowHeading": "What you will need to do",
+    "StepOne": "Take a photo of an identity document",
+    "StepTwo": "Take a selfie",
+    "BusinessQuestion": "Are you registering as a business?"
+  },
+  "CountrySelectionScreen": {
+    "Title": "Select issuing country",
+    "Subtitle": "Choose the country your document is from",
+    "Prompt": "Choose a country"
+  },
+  "DocumentTypeScreen": {
+    "Title": "Select a document",
+    "Subtitle": "You will take a photo of it in the next step"
+  },
+  "DocumentCameraScreen": {
+    "Title": "Scan {{type}} {{side}}",
+    "Prompt": "Fit the {{side}} of your {{type}} in the frame",
+    "Retake": "RETAKE PHOTO",
+    "Readable": "MY {{type}} IS READABLE"
+  },
+  "SelfieCameraScreen": {
+    "Title": "Take a selfie",
+    "MakeSure": "Please make sure",
+    "FaceCovered": "Your face isn't covered",
+    "DocumentReadable": "Your document is readable",
+    "Prompt": "Make sure your face and document are both visible",
+    "Clear": "MY SELFIE AND DOCUMENT IS CLEAR"
+  },
+  "OutcomeScreen": {
+    "Title": "Account Verification {{outcome}}",
+    "Subtitle": "This can take as little as 10 minutes, but up to 48 hours in some cases. You will be notified further via SMS and in app.",
+    "Business": "For business accounts, we require extra information, please download and complete the following form.",
+    "Form": "Download Form",
+    "Pending": "Pending",
+    "Error": "Error"
+  }
+}

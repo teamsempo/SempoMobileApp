@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinComponent Rendering should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flex": 8,
+    }
+  }
+>
+  <View
+    key="row-0"
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <InputButton
+      key="0-0"
+      onPress={[Function]}
+      value={1}
+    />
+    <InputButton
+      key="0-1"
+      onPress={[Function]}
+      value={2}
+    />
+    <InputButton
+      key="0-2"
+      onPress={[Function]}
+      value={3}
+    />
+  </View>
+  <View
+    key="row-1"
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <InputButton
+      key="1-0"
+      onPress={[Function]}
+      value={4}
+    />
+    <InputButton
+      key="1-1"
+      onPress={[Function]}
+      value={5}
+    />
+    <InputButton
+      key="1-2"
+      onPress={[Function]}
+      value={6}
+    />
+  </View>
+  <View
+    key="row-2"
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <InputButton
+      key="2-0"
+      onPress={[Function]}
+      value={7}
+    />
+    <InputButton
+      key="2-1"
+      onPress={[Function]}
+      value={8}
+    />
+    <InputButton
+      key="2-2"
+      onPress={[Function]}
+      value="S"
+    />
+  </View>
+</View>
+`;

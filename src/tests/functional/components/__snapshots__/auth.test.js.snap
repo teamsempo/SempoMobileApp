@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinComponent Rendering should match to snapshot 1`] = `
+<GenericPinComponent
+  buttonBgColor="#FFF"
+  buttonTextColor="#333"
+  clear={false}
+  deleteText="DEL"
+  disabled={false}
+  inputActiveBgColor="#333"
+  inputBgColor="#333"
+  inputBgOpacity={0.1}
+  login={false}
+  loginRequest={[Function]}
+  otp={null}
+  phone={null}
+  pinLength={4}
+  promptText="Prompt Text"
+  region={null}
+  returnType="string"
+  set={false}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  verify={true}
+/>
+`;

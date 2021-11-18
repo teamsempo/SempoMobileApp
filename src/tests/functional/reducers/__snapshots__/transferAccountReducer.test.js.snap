@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`byId Returns correct state when byId is provided with UPDATE_TRANSFER_ACCOUNT_BALANCE 1`] = `Object {}`;
+
+exports[`byId Returns correct state when byId is provided with UPDATE_TRANSFER_ACCOUNTS 1`] = `Object {}`;
+
+exports[`byId Returns correct state when byId is provided with UPDATE_TRANSFER_ACCOUNTS_CREDIT_TRANSFERS 1`] = `Object {}`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_ACCOUNTS_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_ACCOUNTS_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_TRANSFER_ACCOUNTS_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;

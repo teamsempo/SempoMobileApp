@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`localeReducer checkStatus returns failure state 1`] = `
+Object {
+  "error": Object {
+    "message": "Something went wrong.",
+    "status": undefined,
+  },
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`localeReducer checkStatus returns request state 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`localeReducer checkStatus returns success state 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`localeReducer checkStatus returns the same state on an unhandled action 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`localeReducer versionDetails returns dismiss state 1`] = `
+Object {
+  "action": null,
+  "dismissed": true,
+  "version": null,
+}
+`;
+
+exports[`localeReducer versionDetails returns reset state 1`] = `
+Object {
+  "action": null,
+  "dismissed": false,
+  "version": null,
+}
+`;
+
+exports[`localeReducer versionDetails returns the same state on an unhandled action 1`] = `
+Object {
+  "action": null,
+  "dismissed": false,
+  "version": null,
+}
+`;
+
+exports[`localeReducer versionDetails returns version success state 1`] = `
+Object {
+  "action": "ok",
+  "dismissed": false,
+  "version": undefined,
+}
+`;

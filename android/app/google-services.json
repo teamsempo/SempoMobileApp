@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475889511729",
+    "firebase_url": "https://sempo-f38d7.firebaseio.com",
+    "project_id": "sempo-f38d7",
+    "storage_bucket": "sempo-f38d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475889511729:android:08d328994f7ac692",
+        "android_client_info": {
+          "package_name": "com.sempo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475889511729-l2vsqgdb3bvt1ob3l7hkm3io7idjcbro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sempo",
+            "certificate_hash": "e591507a59eb9bbc31d028dcdcb9905246707291"
+          }
+        },
+        {
+          "client_id": "475889511729-uuogpcm4jh9pas9ckrqp6bcm5au4ejgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQrR75L-SJjPELsFngJFaBTCloMb5a3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475889511729-uuogpcm4jh9pas9ckrqp6bcm5au4ejgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

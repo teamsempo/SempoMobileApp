@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountrySelectionScreen Rendering should match to snapshot 1`] = `
+<CountrySelectionScreen
+  loadKYCApplication={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;
+
+exports[`DocumentCameraScreen Rendering should match to snapshot 1`] = `
+<DocumentCameraScreen
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;
+
+exports[`DocumentTypeScreen Rendering should match to snapshot 1`] = `
+<DocumentTypeScreen
+  loadKYCApplication={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;
+
+exports[`OutcomeScreen Rendering should match to snapshot 1`] = `
+<OutcomeScreen
+  createKYCApplication={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;
+
+exports[`SelfieCameraScreen Rendering should match to snapshot 1`] = `
+<SelfieCameraScreen
+  createKYCApplication={[Function]}
+  editKYCApplicationRequest={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;
+
+exports[`VerifyAccountFlow Rendering should match to snapshot 1`] = `
+<VerifyAccountFlow
+  dispatch={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`VerifyLaunchScreen Rendering should match to snapshot 1`] = `
+<VerifyLaunchScreen
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateKYCDetails={[Function]}
+/>
+`;

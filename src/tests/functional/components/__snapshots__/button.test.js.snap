@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Rendering should match to snapshot 1`] = `
+<View>
+  <ForwardRef
+    accessibilityLabel="SIGN IN"
+    onPress={[MockFunction]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 2,
+          "borderWidth": 0,
+          "display": "flex",
+          "justifyContent": "center",
+          "margin": 5,
+          "paddingBottom": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#2D9EA0",
+          "borderColor": null,
+          "borderWidth": 0,
+        },
+      ]
+    }
+    underlayColor="#34b0b3"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "letterSpacing": 1,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFF",
+          },
+        ]
+      }
+    >
+      SIGN IN
+    </Text>
+  </ForwardRef>
+</View>
+`;

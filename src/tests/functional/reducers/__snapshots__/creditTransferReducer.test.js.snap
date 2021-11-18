@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFCError Returns correct state when NFCError is provided with RECORD_NFC_CARD_ERROR 1`] = `
+Object {
+  "amountDeducted": undefined,
+  "nfcSerialNumber": undefined,
+  "session": undefined,
+  "transferData": undefined,
+}
+`;
+
+exports[`NFCError Returns correct state when NFCError is provided with REMOVE_NFC_CARD_ERROR 1`] = `Object {}`;
+
+exports[`byId Returns correct state when byId is provided with IMAGE_UPLOAD_SUCCESS 1`] = `Object {}`;
+
+exports[`byId Returns correct state when byId is provided with UPDATE_CREDIT_TRANSFER_LIST 1`] = `Object {}`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_TRANSFER_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "feedback": false,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_TRANSFER_REQUEST 1`] = `
+Object {
+  "error": null,
+  "feedback": false,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_TRANSFER_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "feedback": false,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with RESET_NEW_TRANSFER 1`] = `
+Object {
+  "error": null,
+  "feedback": false,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`createTransferRequest Returns correct state when createTransferRequest is provided with CREATE_TRANSFER_REQUEST 1`] = `
+Object {
+  "payload": Object {},
+  "type": "CREATE_TRANSFER_REQUEST",
+}
+`;
+
+exports[`loadCreditTransfers Returns correct state when loadCreditTransfers is provided with LOAD_CREDIT_TRANSFERS_REQUEST 1`] = `
+Object {
+  "payload": Object {
+    "query": Object {
+      "page": Object {
+        "type": "LOAD_CREDIT_TRANSFERS_REQUEST",
+      },
+      "per_page": Object {},
+    },
+  },
+  "type": "LOAD_CREDIT_TRANSFERS_REQUEST",
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_CREDIT_TRANSFERS_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "numberAdded": 1,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_CREDIT_TRANSFERS_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "numberAdded": 1,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_CREDIT_TRANSFERS_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "numberAdded": 1,
+  "success": true,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with UPDATE_CREDIT_TRANSFER_LIST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "numberAdded": 0,
+  "success": false,
+}
+`;
+
+exports[`removeNFCCardError Returns correct state when removeNFCCardError is provided with REMOVE_NFC_CARD_ERROR 1`] = `
+Object {
+  "type": "REMOVE_NFC_CARD_ERROR",
+}
+`;
+
+exports[`resetTransferData Returns correct state when resetTransferData is provided with UPDATE_TRANSFER_DATA 1`] = `
+Object {
+  "type": "RESET_TRANSFER_DATA",
+}
+`;
+
+exports[`transferData Returns correct state when transferData is provided with RESET_TRANSFER_DATA 1`] = `
+Object {
+  "counterparty_user_id": null,
+  "default_transfer_mode": null,
+  "errored_NFC_id": null,
+  "is_sending": false,
+  "my_matching_transfer_accounts": null,
+  "my_transfer_account_id": null,
+  "public_identifier": null,
+  "temp_transfer_mode": null,
+  "token_symbol": null,
+  "transfer_account_name": null,
+  "transfer_amount": 0,
+  "transfer_random_key": null,
+  "transfer_use": null,
+  "user_id": null,
+}
+`;
+
+exports[`transferData Returns correct state when transferData is provided with UPDATE_TRANSFER_DATA 1`] = `
+Object {
+  "counterparty_user_id": null,
+  "default_transfer_mode": null,
+  "errored_NFC_id": null,
+  "is_sending": false,
+  "my_matching_transfer_accounts": null,
+  "my_transfer_account_id": null,
+  "public_identifier": null,
+  "temp_transfer_mode": null,
+  "token_symbol": null,
+  "transfer_account_name": null,
+  "transfer_amount": 0,
+  "transfer_random_key": null,
+  "transfer_use": null,
+  "user_id": null,
+}
+`;

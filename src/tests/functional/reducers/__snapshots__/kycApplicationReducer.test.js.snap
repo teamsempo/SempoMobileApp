@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createBankAccountStatus Returns correct state when createBankAccountStatus is provided with CREATE_BANK_ACCOUNT_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`createBankAccountStatus Returns correct state when createBankAccountStatus is provided with CREATE_BANK_ACCOUNT_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`createBankAccountStatus Returns correct state when createBankAccountStatus is provided with CREATE_BANK_ACCOUNT_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_KYC_APPLICATION_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_KYC_APPLICATION_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`createStatus Returns correct state when createStatus is provided with CREATE_KYC_APPLICATION_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`editStatus Returns correct state when editStatus is provided with EDIT_KYC_APPLICATION_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`editStatus Returns correct state when editStatus is provided with EDIT_KYC_APPLICATION_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`editStatus Returns correct state when editStatus is provided with EDIT_KYC_APPLICATION_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_KYC_APPLICATION_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_KYC_APPLICATION_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_KYC_APPLICATION_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`uploadDocumentStatus Returns correct state when uploadDocumentStatus is provided with UPLOAD_DOCUMENT_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isUploading": false,
+  "success": false,
+}
+`;
+
+exports[`uploadDocumentStatus Returns correct state when uploadDocumentStatus is provided with UPLOAD_DOCUMENT_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isUploading": true,
+  "success": false,
+}
+`;
+
+exports[`uploadDocumentStatus Returns correct state when uploadDocumentStatus is provided with UPLOAD_DOCUMENT_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isUploading": false,
+  "success": true,
+}
+`;

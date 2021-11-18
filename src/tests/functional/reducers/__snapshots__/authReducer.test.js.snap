@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthReducer Returns correct state when login is provided with LOGIN_FAILURE 1`] = `
+Object {
+  "NFCPositions": null,
+  "currencyConversionRate": 1,
+  "currencySymbol": null,
+  "defaultFeedbackQuestions": Array [],
+  "denominations": Object {},
+  "deploymentName": null,
+  "displayDecimals": null,
+  "ecdsaPublic": null,
+  "error": "unknown error",
+  "firstName": null,
+  "forgivingDeduct": false,
+  "isRequesting": false,
+  "isSupervendor": null,
+  "isVendor": null,
+  "kycActive": null,
+  "lastName": null,
+  "localServerTimeDelta": null,
+  "partialState": null,
+  "pusherKey": null,
+  "requestFeedbackQuestions": Array [],
+  "secret": null,
+  "supportSigValidation": false,
+  "termsAccepted": null,
+  "token": null,
+  "transferAccountId": null,
+  "transferUsages": null,
+  "userId": null,
+}
+`;
+
+exports[`AuthReducer Returns correct state when login is provided with LOGIN_FAILURE 2`] = `
+Object {
+  "NFCPositions": null,
+  "currencyConversionRate": 1,
+  "currencySymbol": null,
+  "defaultFeedbackQuestions": Array [],
+  "denominations": Object {},
+  "deploymentName": null,
+  "displayDecimals": null,
+  "ecdsaPublic": null,
+  "error": "unknown error",
+  "firstName": null,
+  "forgivingDeduct": false,
+  "isRequesting": false,
+  "isSupervendor": null,
+  "isVendor": null,
+  "kycActive": null,
+  "lastName": null,
+  "localServerTimeDelta": null,
+  "partialState": null,
+  "pusherKey": null,
+  "requestFeedbackQuestions": Array [],
+  "secret": null,
+  "supportSigValidation": false,
+  "termsAccepted": null,
+  "token": null,
+  "transferAccountId": null,
+  "transferUsages": null,
+  "userId": null,
+}
+`;
+
+exports[`AuthReducer Returns correct state when login is provided with LOGIN_PARTIAL 1`] = `
+Object {
+  "NFCPositions": null,
+  "currencyConversionRate": 1,
+  "currencySymbol": null,
+  "defaultFeedbackQuestions": Array [],
+  "denominations": Object {},
+  "deploymentName": null,
+  "displayDecimals": null,
+  "ecdsaPublic": null,
+  "error": undefined,
+  "firstName": null,
+  "forgivingDeduct": false,
+  "isRequesting": false,
+  "isSupervendor": null,
+  "isVendor": null,
+  "kycActive": null,
+  "lastName": null,
+  "localServerTimeDelta": null,
+  "partialState": undefined,
+  "pusherKey": null,
+  "requestFeedbackQuestions": Array [],
+  "secret": null,
+  "supportSigValidation": false,
+  "termsAccepted": null,
+  "token": null,
+  "transferAccountId": null,
+  "transferUsages": null,
+  "userId": null,
+}
+`;
+
+exports[`AuthReducer Returns correct state when login is provided with LOGIN_REQUEST 1`] = `
+Object {
+  "NFCPositions": null,
+  "currencyConversionRate": 1,
+  "currencySymbol": null,
+  "defaultFeedbackQuestions": Array [],
+  "denominations": Object {},
+  "deploymentName": null,
+  "displayDecimals": null,
+  "ecdsaPublic": null,
+  "error": null,
+  "firstName": null,
+  "forgivingDeduct": false,
+  "isRequesting": true,
+  "isSupervendor": null,
+  "isVendor": null,
+  "kycActive": null,
+  "lastName": null,
+  "localServerTimeDelta": null,
+  "partialState": null,
+  "pusherKey": null,
+  "requestFeedbackQuestions": Array [],
+  "secret": null,
+  "supportSigValidation": false,
+  "termsAccepted": null,
+  "token": null,
+  "transferAccountId": null,
+  "transferUsages": null,
+  "userId": null,
+}
+`;
+
+exports[`AuthReducer Returns correct state when login is provided with LOGIN_SUCCESS 1`] = `
+Object {
+  "NFCPositions": undefined,
+  "currencyConversionRate": undefined,
+  "currencySymbol": undefined,
+  "defaultFeedbackQuestions": undefined,
+  "denominations": undefined,
+  "deploymentName": undefined,
+  "displayDecimals": undefined,
+  "ecdsaPublic": undefined,
+  "error": null,
+  "firstName": undefined,
+  "forgivingDeduct": undefined,
+  "isRequesting": false,
+  "isSupervendor": undefined,
+  "isVendor": undefined,
+  "kycActive": undefined,
+  "lastName": undefined,
+  "localServerTimeDelta": undefined,
+  "partialState": null,
+  "pusherKey": undefined,
+  "requestFeedbackQuestions": undefined,
+  "secret": undefined,
+  "supportSigValidation": undefined,
+  "termsAccepted": undefined,
+  "token": undefined,
+  "transferAccountId": undefined,
+  "transferUsages": undefined,
+  "userId": undefined,
+}
+`;
+
+exports[`AuthReducer Returns correct state when login is provided with LOGOUT 1`] = `
+Object {
+  "NFCPositions": null,
+  "currencyConversionRate": 1,
+  "currencySymbol": null,
+  "defaultFeedbackQuestions": Array [],
+  "denominations": Object {},
+  "deploymentName": null,
+  "displayDecimals": null,
+  "ecdsaPublic": null,
+  "error": null,
+  "firstName": null,
+  "forgivingDeduct": false,
+  "isRequesting": false,
+  "isSupervendor": null,
+  "isVendor": null,
+  "kycActive": null,
+  "lastName": null,
+  "localServerTimeDelta": null,
+  "partialState": null,
+  "pusherKey": null,
+  "requestFeedbackQuestions": Array [],
+  "secret": null,
+  "supportSigValidation": false,
+  "termsAccepted": null,
+  "token": null,
+  "transferAccountId": null,
+  "transferUsages": null,
+  "userId": null,
+}
+`;
+
+exports[`openApp Returns correct state when openApp is provided with BACKGROUND_APP 1`] = `
+Object {
+  "backgrounded": undefined,
+  "error": null,
+  "isRequesting": false,
+  "requirePIN": true,
+  "success": false,
+}
+`;
+
+exports[`openApp Returns correct state when openApp is provided with OPEN_APP_FAILURE 1`] = `
+Object {
+  "backgrounded": true,
+  "error": undefined,
+  "isRequesting": false,
+  "requirePIN": true,
+  "success": false,
+}
+`;
+
+exports[`openApp Returns correct state when openApp is provided with OPEN_APP_REQUEST 1`] = `
+Object {
+  "backgrounded": true,
+  "error": null,
+  "isRequesting": true,
+  "requirePIN": true,
+  "success": false,
+}
+`;
+
+exports[`openApp Returns correct state when openApp is provided with OPEN_APP_SUCCESS 1`] = `
+Object {
+  "backgrounded": true,
+  "error": null,
+  "isRequesting": false,
+  "requirePIN": true,
+  "success": true,
+}
+`;
+
+exports[`openApp Returns correct state when openApp is provided with UPDATE_REQUIRE_PIN 1`] = `
+Object {
+  "backgrounded": true,
+  "error": null,
+  "isRequesting": false,
+  "requirePIN": undefined,
+  "success": false,
+}
+`;
+
+exports[`setPin Returns correct state when setPin is provided with SET_PIN_FAILURE 1`] = `
+Object {
+  "error": "unknown error",
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`setPin Returns correct state when setPin is provided with SET_PIN_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`setPin Returns correct state when setPin is provided with SET_PIN_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;
+
+exports[`verifyPin Returns correct state when verifyPin is provided with OPEN_APP_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`verifyPin Returns correct state when verifyPin is provided with VERIFY_PIN_FAILURE 1`] = `
+Object {
+  "error": undefined,
+  "isRequesting": false,
+  "success": false,
+}
+`;
+
+exports[`verifyPin Returns correct state when verifyPin is provided with VERIFY_PIN_REQUEST 1`] = `
+Object {
+  "error": null,
+  "isRequesting": true,
+  "success": false,
+}
+`;
+
+exports[`verifyPin Returns correct state when verifyPin is provided with VERIFY_PIN_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "isRequesting": false,
+  "success": true,
+}
+`;

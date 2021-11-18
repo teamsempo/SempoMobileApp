@@ -1,0 +1,379 @@
+{
+  "Defaults": {
+    "CurrencySymbol": " LBP ",
+    "Currency": "LBP",
+    "Amount": "{{amount}} LBP"
+  },
+  "ExternalLinks": {
+    "Help": "https://docs.withsempo.com/vendor-guide/"
+  },
+  "App": {
+    "Error": "حدث خطأ غير متوقع",
+    "RestartMsg": "سنحتاج إلى إعادة تشغيل التطبيق.",
+    "Restart": "اعادة تشغيل"
+  },
+  "Common": {
+    "OK": "OK",
+    "Start": "START",
+    "Next": "NEXT",
+    "ContactSupport": "Contact Support",
+    "Soon": "{{feature}} coming soon..."
+  },
+  "OfflineNotice": {
+    "Message": "بدون إنترنت"
+  },
+  "LocaleAlert": {
+    "Title": "إعادة تشغيل التطبيق",
+    "Details": "نحن بصدد إعادة تشغيل تطبيقك لتحسين اللغة التي اخترتها.",
+    "LanguageTitle": "غير اللغة",
+    "Button": "حسنا"
+  },
+  "DateTime": {
+    "NotLong": "..."
+  },
+  "Drawer": {
+    "Payments": "المدفوعات",
+    "Reporting": "التقارير",
+    "Settings": "إعدادات",
+    "MakePayment": "Make Payment"
+  },
+  "NavBar": {
+    "chargeButtonText": "المطلوب",
+    "refundButtonText": "إعادة مال"
+  },
+  "GoBackNav": {
+    "DefaultTitleText": "عودة",
+    "TransferTitleText": "تحويل"
+  },
+  "LoginScreen": {
+    "title": "ملفك الشخصي",
+    "Legal": "قانوني"
+  },
+  "AuthInput": {
+    "LoginButton": "تسجيل الدخول",
+    "ContactUs": "اتصل بنا",
+    "PhonePlaceholder": "رقم الهاتف",
+    "PinPlaceholder": "رقم السرّي",
+    "PhoneMissing": "أدخل رقم هاتفك",
+    "OTPCode": "Enter SMS code",
+    "PinMissing": "أدخل رقم السرّي",
+    "LoginStatusError": "رقم الهاتف أو الرقم السرّي غير صالح",
+    "PinTooShortError": "يجب أن يتكون رقم التعريف الشخصي من أربعة أرقام على الأقل"
+  },
+  "OTP": {
+    "Prompt": "أدخل الرمز لمرة واحدة",
+    "MissingError": "الرجاء إدخال الرمز لمرة واحدة المقدم عبر المسجل أو الرسائل القصيرة",
+    "TooShortError": "يجب أن يتكون الرمز من 4 أرقام على الأقل"
+  },
+  "SetPin": {
+    "ChoosePinPrompt": "الرجاء اختيار رقم التعريف الشخصي",
+    "ReenterPinPrompt": "الرجاء إعادة إدخال رقم التعريف الشخصي الخاص بك",
+    "NotMatchingError": "رقم التعريف الشخصي الخاص بك غير متطابق",
+    "ClearPin": "صافي"
+  },
+  "EnterPinLogin": {
+    "EnterPinPrompt": "الرجاء إدخال رقم التعريف الشخصي الخاص بك",
+    "IncorrectPin": "رقم التعريف الشخصي غير صحيح"
+  },
+  "AuthButton": {
+    "LoginText": "تسجيل الدخول",
+    "LogOutText": "الخروج",
+    "AuthPrompt": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+  },
+  "PaymentsUseScreen": {
+    "PaymentUse": "ما هو هدف الدفع؟",
+    "PaymentUsePrompt": "يجب اختيار استخدام دفعة واحدة على الأقل",
+    "UseFoodWater": "طعام أو ماء",
+    "UseClothing": "ملابس",
+    "UseShelter": "ملجاء",
+    "UseOther": "آخر"
+  },
+  "PaymentsOptionScreen": {
+    "PaymentOption": "اختر خيار الدفع من التالي",
+    "QR": "مسح رمز QR ",
+    "NFC": "لمس البطاقة على NFC Tag",
+    "Manual": "الإدخال اليدوي"
+  },
+  "NFCScreen": {
+    "ErrorMessage": "لمس بطاقة",
+    "NFCError": "خطأ NFC",
+    "NFCErrorMessage": "لا يحتوي جهازك على قارئ NFC.",
+    "NFCCardError": "خطأ في مصادقة البطاقة",
+    "NFCCurrencyError": "لا تحتوي البطاقة على عملة {{currency}}",
+    "NFCBalanceError": "رصيد غير كاف",
+    "NFCTryAgain": "حاول مرة أخري",
+    "NFCTransceiveFail": "تفشل ترسي",
+    "NFCTagError": "فشل في توصيل العلامة",
+    "NewCardError": "تم العثور على بطاقة جديدة \n حاول مرة اخرى "
+  },
+  "CardScanScreen": {
+    "QRCode": "QR Code:",
+    "QRScanned": "QR Scanned",
+    "QRScanError": "Qr Code Scanning Error",
+    "QRMissing": "Missing QR Code",
+    "NFCScanned": "NFC Scanned",
+    "NFCMissing": "Missing NFC ID",
+    "NFCID": "NFC ID:",
+    "LoggedOut": "Logged Out",
+    "NotLoggedIn": "Not Logged In!",
+    "LoggingIn": "Logging In",
+    "LoggedIn": "Logged In!",
+    "LoginError": "Login Error",
+    "Loading": "Loading...",
+    "Error": "Error",
+    "Deployment": "Deployment:",
+    "KoboUsername": "Kobo Username:",
+    "KoboPassword": "Kobo Password:"
+  },
+  "TransferCompleteScreen": {
+    "SuccessMessage": "تحويل ناجح",
+    "RefundSuccessMessage": "رد المبلغ بنجاح",
+    "Continue": "استمر"
+  },
+  "ManualPayment": {
+    "InvalidCode": "دخول غير صالح",
+    "InsufficientFunds": "رصيد غير كافٍ",
+    "Next": "التالي"
+  },
+  "EnterPin": {
+    "MissingPin": "رمز مفقود. أدخل الأرقام الأربعة السرّية.",
+    "Confirming": "تأكيد المعاملة",
+    "EnterPinText": "اطلب من {{name}} إدخال رقم التعريف الشخصي الخاص بهم لتأكيد المعاملة"
+  },
+  "CameraScreen": {
+    "InvalidQr": "رمز QR غير صالح",
+    "InsufficientFunds": "رصيد غير كاف",
+    "permissionDialog": "الموافقة على استعمال الكاميرا",
+    "RefundPrompt": "كود المسح لاسترداد",
+    "PayPrompt": "كود المسح لقبول الدفع"
+  },
+  "ReportingScreen": {
+    "Withdrawal": "إعادة إيداع",
+    "Disbursement": "الوديعة",
+    "Pending": "قيد الانتظار",
+    "Complete": "مكتمل",
+    "Rejected": "مرفوض",
+    "Send": "إرسال",
+    "Receive": "تسلم",
+    "Payment": "دفع",
+    "Refund": "إعادة مال",
+    "Title": "التقارير",
+    "WithdrawalButton": "الانسحاب",
+    "NoData": "عدم وجود بيانات",
+    "CachePending": "قيد الانتظار",
+    "Hint": "انتقل إلى"
+  },
+  "TransferReportingScreen": {
+    "TransferTitle": "تفاصيل التحويل",
+    "TimestampLabel": "وقت:",
+    "StatusLabel": "حالة التحويل:",
+    "ModeLabel": "طريقة التحويل"
+  },
+  "WithdrawalAmountScreen": {
+    "Requesting": "طلب الانسحاب",
+    "Title": "أدخل مبلغ السحب",
+    "Balance": "الرصيد: {{amount}} (متوفر)"
+  },
+  "WithdrawalCompleteScreen": {
+    "Title": "الانسحاب المطلوب",
+    "PageText": "تستغرق السحوبات من 1 إلى 7 أيام عمل ، وسيتم دفعها عبر طريقة الدفع التي اخترتها في الإعدادات",
+    "ContinueButton": "استمر"
+  },
+  "ExportScreen": {
+    "Title": "تصدير البيانات",
+    "EmailPlaceholder": "أدخل بريدًا إلكترونيًا",
+    "OpenFile": "انقر هنا لفتح الملف."
+  },
+  "SettingsScreen": {
+    "Title": "إعدادات",
+    "ContactUs": "لاتصال بنا للمساعدة",
+    "DetailsTitle": "المعلومات الخاصة",
+    "NameText": "{{name}}",
+    "BalanceText": "الرصيد:",
+    "PhoneText": "الهاتف: {{phone}}",
+    "LocationText": "عنوان#: {{location}}",
+    "OptionsTitle": "خيارات",
+    "SupportTitle": "الدعم",
+    "MessageUs": "رسالة لنا",
+    "FAQS": "أسئلة مكررة",
+    "OtherTitle": "آخر",
+    "ExtraInfo": "رصيدك {{balance}} السحب معلق",
+    "ExtraInfoDefault": "رصيدك",
+    "LanguageText": "لغة:",
+    "Feedback": "أعطنا التعليقات والرجوع",
+    "HowItWorks": "كيف تعمل",
+    "Version": "الإصدار {{version}}",
+    "SecurityTitle": "الأمان",
+    "SecurityText": "طلب رقم التعريف الشخصي للوصول إلى التطبيق",
+    "CheckBalance": "تحقق التوازن"
+  },
+  "HomeScreen": {
+    "Balance": "الرصيد",
+    "Pay": "دفع",
+    "Wallet": "محفظة",
+    "NoTransfers": "لم تقم بإجراء أي تحويلات بعد",
+    "PromptText": "عرض البائع رمز QR للدفع الفوري",
+    "LoadTransfers": "انقر لتحميل التحويلات",
+    "SettingsHint": "انتقل إلى الإعدادات",
+    "PayHint": "انتقل إلى شاشات الدفع"
+  },
+  "PaymentModeSwitcher": {
+    "SendHint": "انتقل إلى شاشة الإرسال",
+    "ChargeHint": "انتقل لاستلام الشاشة",
+    "ScanHint": "انتقل إلى شاشة مسح الكاميرا"
+  },
+  "SendPaymentCameraScreen": {
+    "Send": "إرسال",
+    "CameraPrompt": "ارفع الكاميرا إلى رمز البائع",
+    "Amount": "{{amount}} LBP",
+    "NoWallet": "لا محفظة للعملة",
+    "NewBalance": "سيكون رصيدك الجديد ",
+    "Payment": "دفع",
+    "Success": "نجاح!",
+    "Processing": "معالجة...",
+    "To": "إلى {{vendor}}",
+    "Next": "التالى",
+    "Done": "فعله",
+    "Ok": "حسنا",
+    "TextInputPlaceholder": "أخبرنا أكثر من فضلك (اختياري)",
+    "Submit": "خضع",
+    "FeedbackTitle": "كيف كانت تجربتك؟",
+    "Good": "جيد",
+    "HadIssues": "كان القضايا",
+    "Skip": "تخطى",
+    "FeedbackSent": "ردود الفعل المرسلة!",
+    "Sending": "إرسال...",
+    "OfflinePayment": "حاول الدفع حاليا؟",
+    "Cancel": "إلغاء",
+    "Copy": "نسخ",
+    "Link": "اذهب إلى الرابط",
+    "QR": "بيانات QR",
+    "CheckBalance": "الرصيد لمعرف {{identifier}}",
+    "CardBalance": "الرصيد الحالي على البطاقة",
+    "Available": "متاح",
+    "InsufficientFunds": "لديك أموال غير كافية",
+    "Close": "قريب",
+    "ClipboardSend": "هل تريد الإرسال إلى العنوان التالي؟"
+  },
+  "ReceiptUpload": {
+    "UploadReceiptButton": "تحميل صورة استلام",
+    "Success": "نجاح. شكرا!",
+    "Loading": "التحميل قيد التقدم..."
+  },
+  "SurveyFeedback": {
+    "assistance_satisfaction": "هل أنت راض عن استلام المعونة بهذه الطريقة ؟",
+    "assistance_delivery_preference": "ما هو شكل المساعدات المفضل لديك؟",
+    "nps": "هل ستتحدث عن “Sempo/سيمبو” مع أحد معارفك ؟",
+    "sempo_referral": "رشح شخصًا ما",
+    "cash": "نقد فقط",
+    "goods": "البضائع فقط",
+    "services": "الخدمات فقط",
+    "mix": "مزيج"
+  },
+  "Referral": {
+    "referral": "إحالة",
+    "title": "إحالة الآخرين",
+    "description": "إحالة Sempo إلى شخص ما في مجتمعك المحتاج. إذا كانوا مستلمًا مناسبًا ، فسوف تتم دعوتهم للانضمام إلى البرنامج.",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "phone_number": "رقم هاتفهم",
+    "Submit": "خضع",
+    "error_message": "واحد أو أكثر من الحقول المفقودة",
+    "reason": "سبب الارجاع",
+    "referral_success": "نجاح الإحالة!"
+  },
+  "VersionModal": {
+    "button": "تحديث",
+    "now_title": "تحديث الان",
+    "now_message": "يرجى تحديث التطبيق الخاص بك. لم يعد هذا الإصدار مدعومًا.",
+    "soon_title": "تحديث قريبا",
+    "soon_message": "يرجى تحديث التطبيق الخاص بك. لن يكون هذا الإصدار متاحًا قريبًا."
+  },
+  "OnboardingScreens": {
+    "DigitalWalletTitle": "محفظتك الرقمية",
+    "DigitalWalletDesc": "إنها أموالك نحن نساعدك على إدارة رفاهيتك المالية في محفظتك الرقمية الشخصية.",
+    "PaymentsTitle": "لحظة ، سهلة وآمنة",
+    "PaymentsDesc": "أرسل الأموال على الفور إلى أي رقم هاتف. ادفع بسهولة في المتجر. مضمون من قبل تقنية Blockchain.",
+    "VerificationTitle": "التحقق السريع",
+    "VerificationDesc": "الحصول على التحقق من زيادة حدود الإنفاق. تشهد ببساطة وثائق الهوية ووسائل الإعلام الاجتماعية.",
+    "ReferralTitle": "لمجتمعك",
+    "ReferralDesc": "إحالة مجتمعك إلى Sempo ومشاركة الفوائد. كن سفيرا للمجتمع.",
+    "StartNow": "ابدأ الآن"
+  },
+  "SendPayment": {
+    "SendButton": "ارسل الى المستخدم",
+    "Prompt": "Sempo ID، رقم الهاتف ، عنوان Blockchain ، إلخ"
+  },
+  "ShareWallet": {
+    "Label": "يشارك",
+    "Hint": "شارك عنوان محفظتك"
+  },
+  "LockScreen": {
+    "Prompt": "Enter Your Passcode",
+    "ErrorPrompt": "Incorrect Passcode",
+    "SetPasscode": "Set a passcode",
+    "RenterPasscode": "Re-enter your passcode"
+  },
+  "VerifyAccountWrapper": {
+    "VerifyTitle": "Verify your account!",
+    "VerifyDesc": "Securely provide information to verify your identity in just a few taps!",
+    "VerifyTitleIncomplete": "Further information needed",
+    "VerifyDescIncomplete": "We need more information from you to verify your identity",
+    "PayTitle": "Add a pay-out!",
+    "PayDesc": "Choose between bank transfer and PayPal to withdraw your funds!"
+  },
+  "VerifyFailureOptions": {
+    "id_non_valid": "ID document is not valid or expired",
+    "id_partial": "ID document is partial. Important information is covered.",
+    "id_damaged": "ID document is damaged. ID is unreadable due to physical damage.",
+    "id_non_english": "ID document is not in English.",
+    "id_blurry": "ID document or selfie is too blurry",
+    "selfie_no_match": "ID photo does not match selfie",
+    "selfie_id_non_present": "ID document is not present in selfie image",
+    "selfie_covered": "Part of the face in the selfie image is covered by a hand, ID, anything else"
+  },
+  "VerifyLaunchScreen": {
+    "LegalTerms": "By continuing, you agree to our ",
+    "Terms": "Terms and Conditions",
+    "LearnMore": "Learn More",
+    "PromptBanner": "We take your privacy and security seriously. Learn more about why we do 'Know Your Customer' checks",
+    "ErrorBanner": "There was a problem verifying your account. Please try again.",
+    "Title": "Verify Your Identity",
+    "Subtitle": "It will take less than 2 minutes",
+    "HowHeading": "What you will need to do",
+    "StepOne": "Take a photo of an identity document",
+    "StepTwo": "Take a selfie",
+    "BusinessQuestion": "Are you registering as a business?"
+  },
+  "CountrySelectionScreen": {
+    "Title": "Select issuing country",
+    "Subtitle": "Choose the country your document is from",
+    "Prompt": "Choose a country"
+  },
+  "DocumentTypeScreen": {
+    "Title": "Select a document",
+    "Subtitle": "You will take a photo of it in the next step"
+  },
+  "DocumentCameraScreen": {
+    "Title": "Scan {{type}} {{side}}",
+    "Prompt": "Fit the {{side}} of your {{type}} in the frame",
+    "Retake": "RETAKE PHOTO",
+    "Readable": "MY {{type}} IS READABLE"
+  },
+  "SelfieCameraScreen": {
+    "Title": "Take a selfie",
+    "MakeSure": "Please make sure",
+    "FaceCovered": "Your face isn't covered",
+    "DocumentReadable": "Your document is readable",
+    "Prompt": "Make sure your face and document are both visible",
+    "Clear": "MY SELFIE AND DOCUMENT IS CLEAR"
+  },
+  "OutcomeScreen": {
+    "Title": "Account Verification {{outcome}}",
+    "Subtitle": "This can take as little as 10 minutes, but up to 48 hours in some cases. You will be notified further via SMS and in app.",
+    "Business": "For business accounts, we require extra information, please download and complete the following form.",
+    "Form": "Download Form",
+    "Pending": "Pending",
+    "Error": "Error"
+  }
+}
