@@ -1,5 +1,5 @@
 <a href="https://withsempo.com">
-    <img width="200" src="#" alt="Sempo Logo" />
+    <img width="200" src="src/components/img/sempo_logo.png" alt="Sempo Logo" />
 </a>
 
 ---
