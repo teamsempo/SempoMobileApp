@@ -1,6 +1,12 @@
-[![CircleCI](https://circleci.com/gh/teamsempo/SempoMobileApp.svg?style=svg&circle-token=22ab617a9c6d8252e3f9ef08ca18475400ae52d5)](https://circleci.com/gh/teamsempo/SempoMobileApp)
+<a href="https://withsempo.com">
+    <img width="200" src="#" alt="Sempo Logo" />
+</a>
 
-# SempoVendorMobile
+---
+
+[![CircleCI](https://circleci.com/gh/teamsempo/SempoMobileApp.svg?style=shield)](https://circleci.com/gh/teamsempo/SempoMobileApp)
+[![GitHub](https://img.shields.io/github/license/teamsempo/SempoMobileApp)](LICENSE)
+[![Codecov](https://img.shields.io/codecov/c/github/teamsempo/SempoMobileApp)](https://codecov.io/gh/teamsempo/SempoMobileApp)
 
 Mobile App for vendors and beneficiaries to accept/send payments in Sempo program. 
 
