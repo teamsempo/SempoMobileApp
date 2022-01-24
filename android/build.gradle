@@ -5,8 +5,8 @@ buildscript {
         buildToolsVersion = "29.0.5"
         googlePlayServicesVersion = "12.0.1"
         minSdkVersion = 21
-        compileSdkVersion = 29
-        targetSdkVersion = 29
+        compileSdkVersion = 30
+        targetSdkVersion = 30
         androidXCore = "1.0.2"
     }
     repositories {
