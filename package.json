@@ -1,6 +1,6 @@
 {
   "name": "Sempo",
-  "version": "1.4.11",
+  "version": "1.5.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,6 +10,7 @@
     "clean": "rm -rf node_modules",
     "clean:android": "cd android &&./gradlew clean",
     "reinstall": "npm run clean && npm install",
+    "postinstall": "npx jetify",
     "tests": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
