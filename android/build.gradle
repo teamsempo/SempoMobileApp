@@ -4,9 +4,9 @@ buildscript {
     ext {
         buildToolsVersion = "29.0.5"
         googlePlayServicesVersion = "12.0.1"
-        minSdkVersion = 16
-        compileSdkVersion = 29
-        targetSdkVersion = 29
+        minSdkVersion = 21
+        compileSdkVersion = 30
+        targetSdkVersion = 31
         androidXCore = "1.0.2"
     }
     repositories {
@@ -14,7 +14,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:3.4.2")
+        classpath("com.android.tools.build:gradle:3.5.4")
         classpath 'com.google.gms:google-services:4.2.0'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -52,7 +52,7 @@ subprojects {
     afterEvaluate {
         project -> if (project.hasProperty("android")) {
             android {
-                compileSdkVersion 28
+                compileSdkVersion 30
                 buildToolsVersion '28.0.3'
                 compileOptions {
                    sourceCompatibility 1.8
