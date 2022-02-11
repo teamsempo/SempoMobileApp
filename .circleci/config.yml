@@ -25,6 +25,7 @@ jobs:
       - run:
           name: "jest test"
           command: npm run test:coverage
+          no_output_timeout: 20m
 
       - run:
           name: "Upload to codecov"
