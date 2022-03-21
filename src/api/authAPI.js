@@ -46,6 +46,22 @@ export const refreshApiToken = async () => {
         });
 };
 
+export const logoutApi = async () => {
+    return axios(await getHostURL() + '/api/v1/auth/logout/', {
+        headers: {
+            'Authorization': await getToken(),
+            'Accept': 'application/json'
+        },
+        method: 'post',
+    })
+        .then(function (response) {
+            return response.data
+        })
+        .catch(error => {
+            throw error;
+        });
+};
+
 export const setPINApi = async ({body}) => {
     return axios(await getHostURL() + '/api/v1/auth/reset_password/', {
         headers: {
