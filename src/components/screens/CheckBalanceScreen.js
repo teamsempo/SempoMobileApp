@@ -138,7 +138,7 @@ class CheckBalanceScreen extends React.Component {
     };
 
     _stopDetection = () => {
-        NfcManager.stop().then(result => {
+        NfcManager.cancelTechnologyRequest().then(result => {
             console.log('stop OK', result)
         })
             .catch(error => {

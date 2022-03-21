@@ -202,7 +202,7 @@ class SendPaymentCameraScreen extends Component {
 
     _stopDetection = () => {
         try {
-            NfcManager.stop()
+            NfcManager.cancelTechnologyRequest()
                 .then(result => {
                     console.log('stop OK', result)
                 })

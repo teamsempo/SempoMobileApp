@@ -200,8 +200,7 @@ dependencies {
     implementation project(':react-native-config')
     implementation project(':react-native-intercom')
     implementation 'io.intercom.android:intercom-sdk-fcm:5.+'
-    def multidex_version = "2.0.1"
-    implementation 'androidx.multidex:multidex:$multidex_version'
+    implementation 'androidx.multidex:multidex:2.0.1'
 
     implementation project(':react-native-firebase')
     implementation "com.google.android.gms:play-services-base:16.1.0"
