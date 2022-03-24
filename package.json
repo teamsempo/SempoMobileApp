@@ -17,7 +17,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-native-community/netinfo": "^5.9.6",
     "@react-native-community/toolbar-android": "0.1.0-rc.2",
@@ -41,7 +41,7 @@
     "react": "16.13.1",
     "react-native": "0.62.3",
     "react-native-base64": "^0.1.0",
-    "react-native-camera": "^3.36.0",
+    "react-native-camera": "^3.42.3",
     "react-native-config": "^1.3.3",
     "react-native-country-picker-modal": "2.0.0",
     "react-native-datepicker": "^1.7.2",
@@ -54,7 +54,7 @@
     "react-native-intercom": "^21.1.1",
     "react-native-keychain": "5.0.1",
     "react-native-modal": "11.5.6",
-    "react-native-nfc-manager": "^1.2.0",
+    "react-native-nfc-manager": "^3.11.0",
     "react-native-paper": "4.0.1",
     "react-native-photo-upload": "^1.3.0",
     "react-native-qrcode-svg": "^6.0.6",

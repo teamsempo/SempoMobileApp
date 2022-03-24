@@ -129,27 +129,6 @@ class CardScanScreen extends Component {
                 .catch(err => {
                     console.log(err);
                 })
-            NfcManager.onStateChanged(
-                event => {
-                    if (event.state === 'on') {
-                        this.setState({enabled: true});
-                    } else if (event.state === 'off') {
-                        this.setState({enabled: false});
-                    } else if (event.state === 'turning_on') {
-                        // do whatever you want
-                    } else if (event.state === 'turning_off') {
-                        // do whatever you want
-                    }
-                }
-            )
-                .then(sub => {
-                    this._stateChangedSubscription = sub;
-                    // remember to call this._stateChangedSubscription.remove()
-                    // when you don't want to listen to this anymore
-                })
-                .catch(err => {
-                    console.warn(err);
-                })
         }
     }
 

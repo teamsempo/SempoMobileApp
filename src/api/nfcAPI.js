@@ -7,7 +7,7 @@ export const OpenNFCRequest = async () => (
             .then(() => NfcManager.requestTechnology(NfcTech.NfcA))
 );
 
-export const closeNFCRequest = async () => NfcManager.closeTechnology();
+export const closeNFCRequest = async () => NfcManager.cancelTechnologyRequest();
 
 
 export const getNFCId = async () => (

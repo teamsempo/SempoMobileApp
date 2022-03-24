@@ -173,26 +173,6 @@ class SendPaymentCameraScreen extends Component {
             .catch(err => {
                 console.log(err);
             });
-
-        NfcManager.onStateChanged(
-            event => {
-                if (event.state === 'on') {
-                    this.setState({NFC_enabled: true});
-                    this._startDetection()
-                } else if (event.state === 'off') {
-                    this.setState({NFC_enabled: false});
-                    this._stopDetection()
-                }
-            })
-            .then(sub => {
-                this._stateChangedSubscription = sub;
-                // remember to call this._stateChangedSubscription.remove()
-                // when you don't want to listen to this anymore
-            })
-            .catch(err => {
-                console.warn(err);
-            })
-
     }
 
     _startDetection = () => {
@@ -202,7 +182,7 @@ class SendPaymentCameraScreen extends Component {
 
     _stopDetection = () => {
         try {
-            NfcManager.stop()
+            NfcManager.cancelTechnologyRequest()
                 .then(result => {
                     console.log('stop OK', result)
                 })
