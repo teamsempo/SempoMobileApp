@@ -7,7 +7,7 @@ import { tracker } from '../analytics.js'
 
 import {removeToken, storeToken, storeHostURL, getPIN, storePIN, removePIN } from '../utils';
 
-import { requestApiToken, refreshApiToken, setPINApi } from '../api/authAPI';
+import { requestApiToken, refreshApiToken, setPINApi, logoutApi } from '../api/authAPI';
 
 import * as RootNavigation from '../RootNavigation.js'
 
@@ -279,6 +279,7 @@ function* watchReAuthRequest() {
 }
 
 export function* logout() {
+    yield call(logoutApi);
     yield call(removeToken);
     yield call(removePIN);
     Intercom.logout()
