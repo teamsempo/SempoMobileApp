@@ -133,6 +133,17 @@ export const getPhoneNumber = async () => {
     }
 };
 
+export const getDisplayDecimals = async () => {
+    try {
+        var displayDecimals = await AsyncStorage.getItem('displayDecimals');
+        if (displayDecimals !== null){
+            return parseInt(displayDecimals)
+        }
+    } catch (err) {
+        return 2
+    }
+};
+
 export const storeLocale = async (currentLocale) => {
     await AsyncStorage.setItem('locale', currentLocale);
 };
