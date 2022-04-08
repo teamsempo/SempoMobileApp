@@ -41,6 +41,7 @@ export const getAmountLoaded = async () => _getCount(0x00, true);
 
 export const incrementAmountLoaded = async (incrementValue) => _incrementCount(incrementValue, 0x00, true);
 
+export const incrementAmountLoadedWithoutMultiplier = async (incrementValue) => _incrementCount(incrementValue, 0x00, false);
 
 export const getAmountDeducted = async () => _getCount(0x01, true);
 

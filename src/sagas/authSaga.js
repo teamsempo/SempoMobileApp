@@ -136,7 +136,12 @@ function* handleTokenResponse(token_response) {
             supportSigValidation: token_response.support_sig_validation
         });
         // Ugly hack for now
-        yield AsyncStorage.setItem('displayDecimals', token_response.display_decimals.toString());
+        if (token_response.display_decimals != null){
+            yield AsyncStorage.setItem('displayDecimals', token_response.display_decimals.toString());
+        }
+        else {
+            yield AsyncStorage.setItem('displayDecimals', "2");
+        }
         
         const getLogin = (state) => state.login;
 

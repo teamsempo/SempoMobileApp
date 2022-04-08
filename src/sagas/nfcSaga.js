@@ -23,6 +23,7 @@ import {
     writeData,
     getAmountLoaded,
     incrementAmountLoaded,
+    incrementAmountLoadedWithoutMultiplier,
     getAmountDeducted,
     incrementAmountDeducted,
     getSession,
@@ -30,7 +31,6 @@ import {
 } from "../api/nfcAPI.js"
 
 import {
-    intToThreeByteArray,
     hexStringToByteArray,
     byteArrayToHexString,
     uuidv4,
@@ -207,7 +207,7 @@ function* chargeNFCCard({chargeAmount, symbol}) {
                 robustlyUpdateCounter,
                 16777215,
                 getAmountLoaded,
-                incrementAmountLoaded, 2, false
+                incrementAmountLoadedWithoutMultiplier, 2, false
             );
         }
 
