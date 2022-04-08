@@ -144,7 +144,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true
         versionCode 68
-        versionName "1.6.0"
+        versionName "1.7.0"
         missingDimensionStrategy 'react-native-camera', 'general'
     }
     signingConfigs {
