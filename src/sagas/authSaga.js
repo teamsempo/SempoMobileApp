@@ -1,3 +1,4 @@
+import AsyncStorage from '@react-native-community/async-storage';
 import { call, put, all, cancelled, takeEvery,select } from 'redux-saga/effects';
 import { SEMPO_API_URL, USE_DELEGATOR } from '../config';
 import DeviceInfo from 'react-native-device-info';
@@ -134,7 +135,14 @@ function* handleTokenResponse(token_response) {
             forgivingDeduct: token_response.forgiving_deduct,
             supportSigValidation: token_response.support_sig_validation
         });
-
+        // Ugly hack for now
+        if (token_response.display_decimals != null){
+            yield AsyncStorage.setItem('displayDecimals', token_response.display_decimals.toString());
+        }
+        else {
+            yield AsyncStorage.setItem('displayDecimals', "2");
+        }
+        
         const getLogin = (state) => state.login;
 
         const login_state = yield select(getLogin);
