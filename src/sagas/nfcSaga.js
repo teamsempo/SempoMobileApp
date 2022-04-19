@@ -23,6 +23,7 @@ import {
     writeData,
     getAmountLoaded,
     incrementAmountLoaded,
+    incrementAmountLoadedWithoutMultiplier,
     getAmountDeducted,
     incrementAmountDeducted,
     getSession,
@@ -30,7 +31,6 @@ import {
 } from "../api/nfcAPI.js"
 
 import {
-    intToThreeByteArray,
     hexStringToByteArray,
     byteArrayToHexString,
     uuidv4,
@@ -57,8 +57,6 @@ function* robustlyUpdateCounter(desiredValue, getter, incrementer, allowedAttemp
         throw `Overspent for ${desiredValue}`
     }
 
-    let deductedBytesDiff = intToThreeByteArray(shortfall);
-
     let successfulWrite = false;
     let attempts = 0;
     console.log("preloopshortfall is", shortfall);
@@ -69,7 +67,7 @@ function* robustlyUpdateCounter(desiredValue, getter, incrementer, allowedAttemp
         let ACK = false;
 
         try {
-            let res = yield call(incrementer, deductedBytesDiff);
+            let res = yield call(incrementer, shortfall);
             ACK = res[0] === 10;  //ACK response code is binary 'A'
         } catch (error){
             console.log("Ignoring Error:", error)
@@ -198,7 +196,7 @@ function* chargeNFCCard({chargeAmount, symbol}) {
         console.log("~~~NFC Trans Details~~~")
         console.log('sig validation:', login_state.supportSigValidation)
         console.log("user id:", login_state.userId)
-        console.log('ncf id:', nfcId);
+        console.log('nfc id:', nfcId);
         console.log('card details on phone:', cardDetailsOnPhone);
 
         if (cardDetailsOnPhone && cardDetailsOnPhone.is_disabled) {
@@ -209,7 +207,7 @@ function* chargeNFCCard({chargeAmount, symbol}) {
                 robustlyUpdateCounter,
                 16777215,
                 getAmountLoaded,
-                incrementAmountLoaded, 2, false
+                incrementAmountLoadedWithoutMultiplier, 2, false
             );
         }
 
@@ -217,7 +215,6 @@ function* chargeNFCCard({chargeAmount, symbol}) {
 
             //Get amount loaded on card and verify signature using public key
             amountLoaded = yield call(getAmountLoaded);
-
             const writtenData = yield call(getWrittenData);
 
             const signatureArray = writtenData.slice(0,48);
