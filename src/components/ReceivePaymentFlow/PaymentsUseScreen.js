@@ -109,7 +109,7 @@ class PaymentsUseScreen extends React.Component {
                                  onPress={() => {
                                      this._selectPaymentUse(0)
                                  }}>
-                        <Text style={{paddingLeft: 10, width: '100%'}}>Other</Text>
+                        <Text style={{paddingLeft: 10, paddingBottom: 10, width: '100%'}}>Other</Text>
                     </Icon.Button>
                 </View>
             )
@@ -126,11 +126,13 @@ class PaymentsUseScreen extends React.Component {
                         { uses }
                     </ScrollView>
                 </View>
-                <BottomAsyncButton
-                    buttonText={strings('SendPaymentCameraScreen.Next').toUpperCase()}
-                    isLoading={false}
-                    onPress={() => this._handleNext()}
-                />
+                <View style={Styles.inputButton}>
+                    <BottomAsyncButton
+                        buttonText={strings('SendPaymentCameraScreen.Next').toUpperCase()}
+                        isLoading={false}
+                        onPress={() => this._handleNext()}
+                    />
+                </View>
             </View>
         )
     }
