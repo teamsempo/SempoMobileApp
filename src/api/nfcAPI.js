@@ -37,18 +37,18 @@ export const _incrementCount = async (incrementValue, counter, applyMultiplier) 
         })
 }
 
-export const getAmountLoaded = async () => _getCount(0x00, true);
+export const getAmountLoaded = async () => _getCount(0x02, true);
 
-export const incrementAmountLoaded = async (incrementValue) => _incrementCount(incrementValue, 0x00, true);
+export const incrementAmountLoaded = async (incrementValue) => _incrementCount(incrementValue, 0x02, true);
 
-export const incrementAmountLoadedWithoutMultiplier = async (incrementValue) => _incrementCount(incrementValue, 0x00, false);
+export const incrementAmountLoadedWithoutMultiplier = async (incrementValue) => _incrementCount(incrementValue, 0x02, false);
 
 export const getAmountDeducted = async () => _getCount(0x01, true);
 
 export const incrementAmountDeducted = async (incrementValue) => _incrementCount(incrementValue, 0x01, true);
 
-export const getSession = async () => _getCount(0x02, false);
-export const incrementSession = async (incrementValue) => _incrementCount(incrementValue, 0x02, false);
+export const getSession = async () => _getCount(0x00, false);
+export const incrementSession = async (incrementValue) => _incrementCount(incrementValue, 0x00, false);
 
 export const getWrittenData = async () => (
         NfcManager.transceive([0x3A, 0x04, 0x0F])
