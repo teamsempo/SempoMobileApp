@@ -101,7 +101,7 @@
     "NFCErrorMessage": "Your device does not have an NFC reader.",
     "NFCCardError": "Card Authentication Error",
     "NFCCurrencyError": "Card does not have currency {{currency}}",
-    "NFCBalanceError": "Insufficient Balance",
+    "NFCBalanceError": "Insufficient Balance.\nCurrent balance is {{balance}}",
     "NFCTryAgain": "Traem Bakeken",
     "NFCTransceiveFail": "Yu tapem kad hariap tumas.\nPlis traem bakeken.",
     "NFCTagError": "fail to connect tag",

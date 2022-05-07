@@ -101,7 +101,7 @@
     "NFCErrorMessage": "Su dispositivo no tiene una lectora NFC.",
     "NFCCardError": "Error de autenticación de la tarjeta",
     "NFCCurrencyError": "La tarjeta no tiene moneda {{currency}}",
-    "NFCBalanceError": "Equilibrio insuficiente",
+    "NFCBalanceError": "Equilibrio insuficiente\nSaldo actual es {{balance}}",
     "NFCTryAgain": "Inténtalo de nuevo",
     "NFCTransceiveFail": "Tocó la tarjeta demasiado rápido.\nPor favor, inténtelo de nuevo.",
     "NFCTagError": "Error de conexión con la tarjeta",

@@ -117,7 +117,7 @@ function* makeTransfer(amountLoaded, amountDeductedOnCard, transferData, nfcId, 
     console.log('Target balance:', newBalance);
 
     if (newBalance < 0) {
-        throw strings('NFCScreen.NFCBalanceError') // "Insufficient Balance"
+        throw strings('NFCScreen.NFCBalanceError', {balance: balance/100})
     }
 
     try {

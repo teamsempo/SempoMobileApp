@@ -100,7 +100,7 @@
     "NFCErrorMessage": "Votre appareil ne possède pas de lecteur NFC.",
     "NFCCardError": "Erreur d'authentification de la carte",
     "NFCCurrencyError": "La carte n'a pas de devise {{currency}}",
-    "NFCBalanceError": "Solde insuffisant",
+    "NFCBalanceError": "Solde insuffisant\nLe solde actuel est {{balance}}",
     "NFCTryAgain": "Réessayer",
     "NFCTransceiveFail": "échec de transmission",
     "NFCTagError": "échec de la connexion de la balise",
