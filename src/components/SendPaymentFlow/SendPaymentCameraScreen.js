@@ -431,7 +431,7 @@ class SendPaymentCameraScreen extends Component {
                             message: `${strings('CameraScreen.permissionDialog')}`,
                             buttonPositive: 'Ok',
                             buttonNegative: 'Cancel',
-                          }}                    >
+                          }}>
                         <View style={[{ flex: .13, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', zIndex: 999}]} >
 
                             <ExitToHome navigation={this.props.navigation} color='#FFF'/>
