@@ -160,8 +160,12 @@ class CheckBalanceScreen extends React.Component {
                     flashMode={RNCamera.Constants.FlashMode.off}
                     onBarCodeRead={(e) => this._handleScan(e)}
                     barCodeTypes={[RNCamera.Constants.BarCodeType.qr]}
-                    permissionDialogTitle={`${strings('CameraScreen.permissionDialog')}`}
-                    permissionDialogMessage={`${strings('CameraScreen.permissionDialog')}`}
+                    androidCameraPermissionOptions={{
+                        title: `${strings('CameraScreen.permissionDialog')}`,
+                        message: `${strings('CameraScreen.permissionDialog')}`,
+                        buttonPositive: 'Ok',
+                        buttonNegative: 'Cancel',
+                      }}
                 />
                 {content}
                 {(this.props.users.getUserFromPublicSerialNumberStatus.isRequesting
