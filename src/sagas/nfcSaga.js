@@ -96,7 +96,7 @@ function* robustlyUpdateCounter(desiredValue, getter, incrementer, allowedAttemp
         }
 
         if (!successfulWrite && attempts > allowedAttempts) {
-            throw strings('NFCScreen.NFCError') // "NFC Error"
+            throw strings('NFCScreen.NFCCounterError') // "Error Applying Transaction"
         }
     }
 }
