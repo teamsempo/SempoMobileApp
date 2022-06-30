@@ -203,6 +203,7 @@
     "Feedback": "Donnez-nous vos commentaires et référez-vous",
     "HowItWorks": "Comment ça marche",
     "Version": "Version {{version}}",
+    "Updated": "Actualisé {{updated}}",
     "SecurityTitle": "Sécurité",
     "SecurityText": "Exiger un code PIN pour accéder à l'application",
     "CheckBalance": "Vérifier le solde"

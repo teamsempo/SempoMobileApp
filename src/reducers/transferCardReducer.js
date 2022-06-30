@@ -1,4 +1,5 @@
 import {combineReducers} from "redux";
+import moment from 'moment';
 
 export const RESET_TRANSFER_CARDS_DATA = 'RESET_TRANSFER_CARDS_DATA';
 export const LOAD_TRANSFER_CARDS_REQUEST = 'LOAD_TRANSFER_CARDS_REQUEST';
@@ -22,7 +23,7 @@ export const loadStatus = (state = initialLoadStatusState, action) => {
         case LOAD_TRANSFER_CARDS_REQUEST:
             return {...state, isRequesting: true, error: null, success: false};
         case LOAD_TRANSFER_CARDS_SUCCESS:
-            return {...state, isRequesting: false, success: true};
+            return {...state, lastFetched: moment.now(), isRequesting: false, success: true};
         case LOAD_TRANSFER_CARDS_FAILURE:
             try {
                 var error_message = action.error.response.data.message
@@ -64,7 +65,6 @@ const byNFCSerialNumber = (state = {}, action) => {
         case LOAD_TRANSFER_CARDS_SUCCESS:
             let bySerialNumber = {};
             action.result.data.transfer_cards.map(card => {bySerialNumber[card.nfc_serial_number] = card});
-
             return bySerialNumber;
 
         case LOAD_SINGLE_TRANSFER_CARD_SUCCESS:
