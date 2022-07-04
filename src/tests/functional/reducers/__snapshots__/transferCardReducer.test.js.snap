@@ -20,6 +20,7 @@ exports[`loadStatus Returns correct state when loadStatus is provided with LOAD_
 Object {
   "error": null,
   "isRequesting": false,
+  "lastFetched": 1656942392257,
   "success": true,
 }
 `;
