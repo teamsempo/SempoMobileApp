@@ -88,7 +88,7 @@ Other known issues:
 ⋅⋅⋅Use [packagephobia](https://packagephobia.now.sh) to check a package size
 2. Low data usage
 3. Works offline
-4. *Must* Compatible with Android 4.1 `16 (Jelly Bean)`
+4. *Must* Compatible with Android 5.0 `21 (Lollipop)`
   
   
   
