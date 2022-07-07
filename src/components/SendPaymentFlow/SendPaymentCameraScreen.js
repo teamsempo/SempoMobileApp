@@ -426,9 +426,12 @@ class SendPaymentCameraScreen extends Component {
                         flashMode={RNCamera.Constants.FlashMode.off}
                         onBarCodeRead={(e) => this._handleScan(e)}
                         barCodeTypes={[RNCamera.Constants.BarCodeType.qr]}
-                        permissionDialogTitle={`${strings('CameraScreen.permissionDialog')}`}
-                        permissionDialogMessage={`${strings('CameraScreen.permissionDialog')}`}
-                    >
+                        androidCameraPermissionOptions={{
+                            title: `${strings('CameraScreen.permissionDialog')}`,
+                            message: `${strings('CameraScreen.permissionDialog')}`,
+                            buttonPositive: 'Ok',
+                            buttonNegative: 'Cancel',
+                          }}>
                         <View style={[{ flex: .13, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', zIndex: 999}]} >
 
                             <ExitToHome navigation={this.props.navigation} color='#FFF'/>

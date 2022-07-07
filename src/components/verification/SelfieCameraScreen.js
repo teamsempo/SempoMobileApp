@@ -142,9 +142,13 @@ class SelfieCameraScreen extends Component {
                         type={RNCamera.Constants.Type.front}
                         flashMode={RNCamera.Constants.FlashMode.off}
                         barCodeTypes={[RNCamera.Constants.BarCodeType.qr]}
-                        permissionDialogTitle={`${strings('CameraScreen.permissionDialog')}`}
-                        permissionDialogMessage={`${strings('CameraScreen.permissionDialog')}`}
-                    >
+                        androidCameraPermissionOptions={{
+                            title: `${strings('CameraScreen.permissionDialog')}`,
+                            message: `${strings('CameraScreen.permissionDialog')}`,
+                            buttonPositive: 'Ok',
+                            buttonNegative: 'Cancel',
+                          }}
+                        >
                         <View style={styles.maskOutter}>
                             <View style={[{ flex: maskRowHeight - 5, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }, styles.maskRow, this.maskFrame()]} >
                                 <Headline style={{color: isPictureTaken ? '#000' : '#FFF', textAlign: 'center'}}>{strings("SelfieCameraScreen.Title")}</Headline>
