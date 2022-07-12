@@ -204,6 +204,7 @@
     "Feedback": "أعطنا التعليقات والرجوع",
     "HowItWorks": "كيف تعمل",
     "Version": "الإصدار {{version}}",
+    "Updated": "محدث {{updated}}",
     "SecurityTitle": "الأمان",
     "SecurityText": "طلب رقم التعريف الشخصي للوصول إلى التطبيق",
     "CheckBalance": "تحقق التوازن"
