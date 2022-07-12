@@ -98,6 +98,7 @@
   "NFCScreen": {
     "ErrorMessage": "Toque la tarjeta",
     "NFCError": "Error de tarjeta",
+    "NFCCounterError": "Error al aplicar la transacción a la tarjeta",
     "NFCErrorMessage": "Su dispositivo no tiene una lectora NFC.",
     "NFCCardError": "Error de autenticación de la tarjeta",
     "NFCCurrencyError": "La tarjeta no tiene moneda {{currency}}",

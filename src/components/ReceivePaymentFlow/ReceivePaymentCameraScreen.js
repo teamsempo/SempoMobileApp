@@ -75,7 +75,6 @@ class ReceivePaymentCameraScreen extends Component {
 
     _handleScan = (e) => {
         var data = e.data;
-        console.log(data);
         if (this.state.QRCode !== data && data) {
             this.setState({
                 QRCode: data
@@ -137,9 +136,13 @@ class ReceivePaymentCameraScreen extends Component {
                         autoFocus={RNCamera.Constants.AutoFocus.on}
                         onBarCodeRead={(e) => this._handleScan(e)}
                         barCodeTypes={[RNCamera.Constants.BarCodeType.qr]}
-                        permissionDialogTitle={`${strings('ReceivePaymentCameraScreen.permissionDialog')}`}
-                        permissionDialogMessage={`${strings('ReceivePaymentCameraScreen.permissionDialog')}`}
-                    >
+                        androidCameraPermissionOptions={{
+                            title: `${strings('CameraScreen.permissionDialog')}`,
+                            message: `${strings('CameraScreen.permissionDialog')}`,
+                            buttonPositive: 'Ok',
+                            buttonNegative: 'Cancel',
+                          }}
+                        >
                         <View style={styles.maskOutter}>
                             <View style={[{ flex: maskRowHeight  }, styles.maskRow, styles.maskFrame]} />
                             <View style={[{ flex: 30 }, styles.maskCenter]}>

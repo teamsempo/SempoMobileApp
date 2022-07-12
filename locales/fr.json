@@ -97,6 +97,7 @@
   "NFCScreen": {
     "ErrorMessage": "Carte Tap",
     "NFCError": "Erreur NFC",
+    "NFCCounterError": "Erreur lors de l'application de la transaction à la carte",
     "NFCErrorMessage": "Votre appareil ne possède pas de lecteur NFC.",
     "NFCCardError": "Erreur d'authentification de la carte",
     "NFCCurrencyError": "La carte n'a pas de devise {{currency}}",
