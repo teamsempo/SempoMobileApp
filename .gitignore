@@ -54,3 +54,6 @@ launch.json
 
 # CocoaPods
 /ios/Pods/
+
+# Coverage  
+coverage/

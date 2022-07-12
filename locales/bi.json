@@ -98,6 +98,7 @@
   "NFCScreen": {
     "ErrorMessage": "Tajem Kad Lo Phon",
     "NFCError": "Problem",
+    "NFCCounterError": "Error Applying Transaction To Card",
     "NFCErrorMessage": "Your device does not have an NFC reader.",
     "NFCCardError": "Card Authentication Error",
     "NFCCurrencyError": "Card does not have currency {{currency}}",

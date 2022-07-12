@@ -97,6 +97,7 @@
   "NFCScreen": {
     "ErrorMessage": "لمس بطاقة",
     "NFCError": "خطأ NFC",
+    "NFCCounterError": "خطأ في تطبيق المعاملة على البطاقة",
     "NFCErrorMessage": "لا يحتوي جهازك على قارئ NFC.",
     "NFCCardError": "خطأ في مصادقة البطاقة",
     "NFCCurrencyError": "لا تحتوي البطاقة على عملة {{currency}}",
