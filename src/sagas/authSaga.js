@@ -63,11 +63,9 @@ function* getVersionAndLocale() {
 }
 
 function setFirebaseAnalyticsTracker(token_response) {
-    const userId = token_response.user_id.toString();
+    const userId = token_response.user_id.toString()+'-mobile-'+token_response.deployment_name.toString();
     const androidHash = token_response.android_intercom_hash;
     const name = token_response.first_name + ' ' + token_response.last_name;
-    // const deploymentName = token_response.deployment_name.toString();
-
     if (token_response.terms_accepted) {
         // Setup User Id for Google Analytics
         tracker.setUserId(userId);
