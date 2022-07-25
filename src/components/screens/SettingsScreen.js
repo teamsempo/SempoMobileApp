@@ -1,4 +1,6 @@
 import React from 'react'
+import moment from 'moment';
+
 import {
     StyleSheet,
     Text,
@@ -33,6 +35,7 @@ const mapStateToProps = (state) => {
         login: state.login,
         locale: state.locale,
         transferAccounts: state.transferAccounts,
+        transferCards: state.transferCards,
         users: state.users,
         mergedTransferAccountUserObject: {...state.transferAccounts.byId[Object.keys(state.transferAccounts.byId)[0]], ...state.users.byId[Object.keys(state.users.byId)[0]]},
         requirePIN: state.openApp.requirePIN,
@@ -126,7 +129,11 @@ class SettingsScreen extends React.Component {
     render() {
         const transferAccount = this.props.transferAccounts.byId[Object.keys(this.props.transferAccounts.byId)[0]];
         const user = this.props.users.byId[Object.keys(this.props.users.byId)[0]];
-
+        const cardsFetchedString =
+            this.props.transferCards && 
+            this.props.transferCards.loadStatus &&
+            this.props.transferCards.loadStatus.lastFetched ? 
+            moment.utc(this.props.transferCards.loadStatus.lastFetched).fromNow() : "Never"
         // transfer account id overwrites user id
         const vendor_info = {...transferAccount, ...user};
         var user_initials = null;
@@ -225,7 +232,8 @@ class SettingsScreen extends React.Component {
                         {otherItems.map((item, i) => this._renderItem(item, i, otherItems))}
 
                         <Text style={styles.versionNumber}>{strings('SettingsScreen.Version', {version: this.props.version.versionDetails.version})}</Text>
-
+                        <Text style={styles.versionNumber}>{strings('SettingsScreen.Updated', {updated: cardsFetchedString})}</Text>
+                        
                         <LanguageModal visible={this.state.isLanguageModalVisible} close={() => this.toggleModal(false)} />
 
                         <OnboardingModal
