@@ -148,7 +148,10 @@ function* makeTransfer(amountLoaded, amountDeductedOnCard, transferData, nfcId, 
             'my_transfer_account_id': transferData.my_transfer_account_id,
             'uuid': uuidv4(),
             'created': date.toISOString(),
-            'inCache': true
+            'inCache': true,
+            'nfc_session_number': session,
+            'amount_deducted': desiredDeducted,
+            'amount_loaded': amountLoaded
         },
         userId: userId
     };
