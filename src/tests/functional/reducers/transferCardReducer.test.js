@@ -14,7 +14,7 @@ describe('loadStatus', () => {
     });
 
     it('Returns correct state when loadStatus is provided with LOAD_TRANSFER_CARDS_SUCCESS', () => {
-        expect(loadStatus(initialLoadStatusState, { type: LOAD_TRANSFER_CARDS_SUCCESS })).toMatchSnapshot();
+        expect(loadStatus(initialLoadStatusState, { type: LOAD_TRANSFER_CARDS_SUCCESS })).toMatchSnapshot({lastFetched: expect.any(Number)});
     });
 });
 
