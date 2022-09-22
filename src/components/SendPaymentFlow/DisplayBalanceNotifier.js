@@ -26,16 +26,16 @@ export default function TransferCompleteNotifier(props) {
 
         <View style={styles.container}>
             <View style={styles.mainContainer}>
-                <Icon name="credit-card-wireless-outline" size={100} color="#3D454C"/>
+                <Icon name="credit-card-wireless-outline" size={100} color="#3D454C" />
                 {balanceDisplay}
             </View>
             <View style={styles.chargeContainer}>
                 <TouchableHighlight underlayColor='#298F91' style={styles.chargeButton}
-                                    onPress={() => {
-                                        resetTransferData();
-                                        navigation.navigate('Home')
-                                    }}
-                                    accessibilityLabel={strings('TransferCompleteScreen.Continue')}>
+                    onPress={() => {
+                        resetTransferData();
+                        navigation.navigate('Home')
+                    }}
+                    accessibilityLabel={strings('TransferCompleteScreen.Continue')}>
                     <Text style={styles.chargeButtonText}>{strings('TransferCompleteScreen.Continue')}</Text>
                 </TouchableHighlight>
             </View>

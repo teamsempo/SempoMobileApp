@@ -12,7 +12,7 @@ import { theme } from "../../Styles";
 import TransferCompleteNotifier from "./DisplayBalanceNotifier"
 import AsyncButton from "../common/AsyncButton";
 
-import { updateTransferData, RESET_NEW_TRANSFER, RESET_TRANSFER_DATA } from '../../reducers/creditTransferReducer.js'
+import { RESET_NEW_TRANSFER, RESET_TRANSFER_DATA } from '../../reducers/creditTransferReducer.js'
 import { RESET_USER_BY_PUBLIC_SERIAL } from "../../reducers/userReducer";
 import { chargeNFCCard, closeNFCRead, resetNFCStatus } from "../../reducers/nfcReducer";
 import NfcManager from "react-native-nfc-manager";
@@ -31,8 +31,6 @@ const mapStateToProps = (state) => {
         login: state.login,
         transferData: state.creditTransfers.transferData,
         NFCTransceiveStatus: state.NFC.TransceiveStatus,
-        tokens: state.tokens.byId,
-        transferAccounts: state.transferAccounts.byId
     };
 };
 
@@ -50,14 +48,13 @@ const mapDispatchToProps = (dispatch) => {
             dispatch({ type: RESET_TRANSFER_DATA });
             dispatch({ type: RESET_USER_BY_PUBLIC_SERIAL });
         },
-        updateTransferData: (payload) => dispatch(updateTransferData(payload)),
         chargeNFCCard: (chargeAmount) => dispatch(chargeNFCCard(chargeAmount, null)),
         cancelNFCRead: () => dispatch(closeNFCRead()),
         resetNFCStatus: () => dispatch(resetNFCStatus())
     };
 };
 
-class SendPaymentCameraScreen extends Component {
+class CheckCardBalanceScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -90,6 +87,13 @@ class SendPaymentCameraScreen extends Component {
         // Component doesn't mount or unmount through standard nav so we need these event listeners.
         this._unsubscribeFocus = navigation.addListener('focus', () => {
             this.cleanUp();
+            NfcManager.isSupported()
+            .then(NFC_supported => {
+                this.setState({ NFC_supported });
+                if (NFC_supported) {
+                    this._startNfc();
+                }
+            });
         });
 
         this._unsubscribeBlur = navigation.addListener('blur', () => {
@@ -106,7 +110,7 @@ class SendPaymentCameraScreen extends Component {
                     this._startNfc();
                 }
             });
-        tracker.logEvent("SendPaymentCameraScreen");
+        tracker.logEvent("CheckCardBalanceScreen");
     }
 
     cleanUp() {
@@ -184,44 +188,6 @@ class SendPaymentCameraScreen extends Component {
             console.log('stop fail', err)
         }
     };
-
-    _handleAdditionalInformation(additional_information) {
-        this.setState({ additional_information })
-    }
-
-
-    _handleCompletePayment() {
-        this._resetModal()
-    }
-
-    _resetNewTransfer() {
-        this.setState({ scanData: '', handleScan: true });
-        this.props.resetNewTransfer()
-    }
-
-    _resetModal() {
-        let transfer = this.props.newTransferStatus;
-
-        this.setState({
-            checkBalance: false,
-            public_serial_number: null,
-            additional_information: '',
-            vendorScan: false,
-        }, () => console.log('resetModal STATE', this.state));
-
-        this.props.resetNFCStatus();
-
-        if (transfer.success === true) {
-            // EXIT TO HOME
-            this._resetNewTransfer()
-            this.props.navigation.popToTop();
-
-        } else {
-            // RESET SCANNER
-            this._resetNewTransfer()
-        }
-    }
-
 
     render() {
 
@@ -432,7 +398,7 @@ class SendPaymentCameraScreen extends Component {
         }
     }
 }
-export default connect(mapStateToProps, mapDispatchToProps)(SendPaymentCameraScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(CheckCardBalanceScreen);
 
 const styles = StyleSheet.create({
     rootContainer: {
