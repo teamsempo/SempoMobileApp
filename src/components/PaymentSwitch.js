@@ -9,6 +9,7 @@ import {
 import { connect } from "react-redux";
 
 import SendPaymentCameraScreen from './SendPaymentFlow/SendPaymentCameraScreen';
+import CheckCardBalanceScreen from './SendPaymentFlow/CheckCardBalanceScreen';
 import PaymentAmountScreen from "./SendPaymentFlow/PaymentAmountScreen.js"
 import PaymentsAmountScreen from "../components/ReceivePaymentFlow/PaymentsAmountScreen";
 
@@ -30,12 +31,13 @@ class PaymentSwitch extends Component {
     static defaultProps = {
         camera: false,
         send: false,
-        charge: false
+        charge: false,
+        balance: false
     };
 
     render() {
         const { transferData } = this.props;
-        console.log('payment switch--',transferData.default_transfer_mode);
+        console.log('payment switch--', transferData.default_transfer_mode);
 
         if (transferData.default_transfer_mode === 'camera' && transferData.temp_transfer_mode === null) {
             return <SendPaymentCameraScreen navigation={this.props.navigation} />
@@ -43,6 +45,8 @@ class PaymentSwitch extends Component {
             return <PaymentAmountScreen navigation={this.props.navigation} />
         } else if (transferData.default_transfer_mode === 'charge') {
             return <PaymentsAmountScreen navigation={this.props.navigation} />
+        } else if (transferData.default_transfer_mode == 'balance') {
+            return <CheckCardBalanceScreen navigation={this.props.navigation} />
         } else if (this.props.login.isVendor) {
             return <PaymentsAmountScreen navigation={this.props.navigation} />
         } else {

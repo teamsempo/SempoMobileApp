@@ -97,6 +97,7 @@
   },
   "NFCScreen": {
     "ErrorMessage": "Toque la tarjeta",
+    "BalanceCheckMessage": "Consultar saldo",
     "NFCError": "Error de tarjeta",
     "NFCCounterError": "Error al aplicar la transacción a la tarjeta",
     "NFCErrorMessage": "Su dispositivo no tiene una lectora NFC.",
@@ -222,7 +223,8 @@
   "PaymentModeSwitcher": {
     "SendHint": "Navegar a la pantalla de envío",
     "ChargeHint": "Navegar a la pantalla de recepción",
-    "ScanHint": "Navegar a la pantalla de escaneo de la cámara"
+    "ScanHint": "Navegar a la pantalla de escaneo de la cámara",
+    "BalanceHint": "Navegar para consultar el saldo de la tarjeta"
   },
   "SendPaymentCameraScreen": {
     "Send": "Enviar",
