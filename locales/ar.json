@@ -96,6 +96,7 @@
   },
   "NFCScreen": {
     "ErrorMessage": "لمس بطاقة",
+    "BalanceCheckMessage": "تحقق من الرصيد",
     "NFCError": "خطأ NFC",
     "NFCCounterError": "خطأ في تطبيق المعاملة على البطاقة",
     "NFCErrorMessage": "لا يحتوي جهازك على قارئ NFC.",
@@ -222,7 +223,8 @@
   "PaymentModeSwitcher": {
     "SendHint": "انتقل إلى شاشة الإرسال",
     "ChargeHint": "انتقل لاستلام الشاشة",
-    "ScanHint": "انتقل إلى شاشة مسح الكاميرا"
+    "ScanHint": "انتقل إلى شاشة مسح الكاميرا",
+    "BalanceHint": "انتقل للتحقق من رصيد البطاقة"
   },
   "SendPaymentCameraScreen": {
     "Send": "إرسال",

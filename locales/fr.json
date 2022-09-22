@@ -96,6 +96,7 @@
   },
   "NFCScreen": {
     "ErrorMessage": "Carte Tap",
+    "BalanceCheckMessage": "Vérifier le solde",
     "NFCError": "Erreur NFC",
     "NFCCounterError": "Erreur lors de l'application de la transaction à la carte",
     "NFCErrorMessage": "Votre appareil ne possède pas de lecteur NFC.",
@@ -222,7 +223,8 @@
   "PaymentModeSwitcher": {
     "SendHint": "Accédez à l'écran d'envoi",
     "ChargeHint": "Naviguez pour recevoir l'écran",
-    "ScanHint": "Accédez à l'écran de numérisation de la caméra"
+    "ScanHint": "Accédez à l'écran de numérisation de la caméra",
+    "BalanceHint": "Naviguez pour vérifier le solde de la carte"
   },
   "SendPaymentCameraScreen": {
     "Send": "Envoyer",

@@ -97,6 +97,7 @@
   },
   "NFCScreen": {
     "ErrorMessage": "Tajem Kad Lo Phon",
+    "BalanceCheckMessage": "Check Balance",
     "NFCError": "Problem",
     "NFCCounterError": "Error Applying Transaction To Card",
     "NFCErrorMessage": "Your device does not have an NFC reader.",
@@ -223,7 +224,8 @@
   "PaymentModeSwitcher": {
     "SendHint": "Navigate to send screen",
     "ChargeHint": "Navigate to receive screen",
-    "ScanHint": "Navigate to camera scan screen"
+    "ScanHint": "Navigate to camera scan screen",
+    "BalanceHint": "Navigate to check card balance"
   },
   "SendPaymentCameraScreen": {
     "Send": "Sendem",

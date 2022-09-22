@@ -2,10 +2,11 @@ import NfcManager, {NfcTech} from 'react-native-nfc-manager';
 
 import {threeByteArrayToInt, byteArrayToHexString, intToThreeByteArray, getDisplayDecimals} from "../utils";
 
-export const OpenNFCRequest = async () => (
-        NfcManager.registerTagEvent()
-            .then(() => NfcManager.requestTechnology(NfcTech.NfcA))
-);
+export const OpenNFCRequest = async () => {
+    return NfcManager.registerTagEvent()
+    .then(() => NfcManager.requestTechnology(NfcTech.NfcA))
+
+}
 
 export const closeNFCRequest = async () => NfcManager.cancelTechnologyRequest();
 

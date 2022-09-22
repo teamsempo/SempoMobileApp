@@ -1,15 +1,9 @@
 'use strict';
 import React, { Component } from 'react';
 import {
-    Dimensions,
     StyleSheet,
-    Text,
     View,
-    Alert,
     TouchableNativeFeedback,
-    Vibration,
-    Clipboard,
-    Linking,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -41,6 +35,7 @@ class PaymentModeSwitcher extends Component {
     static defaultProps = {
         camera: false,
         send: false,
+        balance: false,
         charge: false,
         dark: false,
     };
@@ -49,13 +44,14 @@ class PaymentModeSwitcher extends Component {
 
         let paymentOptions = [
             {mode: 'camera', name: 'qrcode-scan', active: this.props.camera, transform: [], label: strings('SendPaymentCameraScreen.CameraPrompt'), hint: strings('PaymentModeSwitcher.ScanHint')},
+            {mode: 'balance', name: 'cellphone-nfc', active: this.props.balance, transform: [], label: strings('SendPaymentCameraScreen.CardBalance'), hint: strings('PaymentModeSwitcher.BalanceHint')},
             {mode: 'send', name: 'send', active: this.props.send, transform: [{rotate: '-45deg'}], label: strings('SendPaymentCameraScreen.Send'), hint: strings('PaymentModeSwitcher.SendHint')},
         ];
 
         if (this.props.login.isVendor || this.props.login.isSupervendor) {
             paymentOptions.push({mode: 'charge', name: 'credit-card-multiple', active: this.props.charge, transform: [], label: strings('NavBar.chargeButtonText'), hint: strings('PaymentModeSwitcher.ChargeHint')})
         }
-
+        
         return (
             <View style={[styles.rootContainer, {borderColor: (this.props.dark ? '#000' : '#FFF')}]}>
                 {paymentOptions.map((option, index) => {
